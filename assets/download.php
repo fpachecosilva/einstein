@@ -6,31 +6,21 @@ $compartilhar = "";
 
 if ( $paginaAtual == 'Logotipo' ) {    
     
-    $logotipoTitulo_01 = "Pack Geral";
-    $logotipoLink_01 = $download. "logo/AF_Merce_Assets_Logo.zip";
-    $logotipoTexto_01 = "AF_Merce_Assets_Logo.zip";
+    $logotipoTitulo_01 = "Versão principal";
+    $logotipoLink_01 = $download. "_Versões de Marca\AF_HIAE_VersoesMarca_Principal.zip";
+    $logotipoTexto_01 = "AF_HIAE_VersoesMarca_Principal.zip";
     
-    $logotipoTitulo_02 = "Customização";
-    $logotipoLink_02 = $download. "logo/AF_Merce_Customizacao_Logo.zip";
-    $logotipoTexto_02 = "AF_Merce_Customizacao_Logo.zip";
+    $logotipoTitulo_02 = "Símbolo";
+    $logotipoLink_02 = $download. "_Símbolo\AF_HIAE_Simbolo.zip";
+    $logotipoTexto_02 = "AF_HIAE_Simbolo.zip";
     
-    $logotipoTitulo_03 = "Versões de logo";
-    $logotipoLink_03 = $download. "logo/AF_Merce_Versoes_Logo.zip";
-    $logotipoTexto_03 = "AF_Merce_Versoes_Logo.zip";
-    
-    $logotipoTitulo_04 = "Ícone";
-    $logotipoLink_04 = $download. "logo/AF_Merce_Versoes_Icone.zip";
-    $logotipoTexto_04 = "AF_Merce_Versoes_Icone.zip";
+    $logotipoTitulo_03 = "Versão secundária";
+    $logotipoLink_03 = $download. "_Versões de Marca\AF_HIAE_VersoesMarca_Secundaria.zip";
+    $logotipoTexto_03 = "AF_HIAE_VersoesMarca_Secundaria.zip";
 
     echo'
         <section id="download">
-            <article>
-                <div class="compartilhar desktopitem">
-                    <a href=" '.$compartilhar.' " class="share">
-                        <p>Compartilhar sessão</p>
-                    </a>
-                </div>
-
+            <article>  
                 <p class="txt--padrao40 txt--bold">Download</p>
                 
                 <div class="grid--2colunas">
@@ -50,11 +40,6 @@ if ( $paginaAtual == 'Logotipo' ) {
                         <div>
                             <p class="txt--padrao20">'.$logotipoTitulo_03.'</p>
                             <a href="'.$logotipoLink_03.'">'.$logotipoTexto_03.'</a>
-                        </div>
-            
-                        <div>
-                            <p class="txt--padrao20">'.$logotipoTitulo_04.'</p>
-                            <a href="'.$logotipoLink_04.'">'.$logotipoTexto_04.'</a>
                         </div>
                     </div>
                 </div>

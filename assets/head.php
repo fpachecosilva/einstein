@@ -40,11 +40,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">  
 
-<link type="text/css" rel="stylesheet" href="assets/css/fonts/fonts.css" media="all" />
-<link type="text/css" rel="stylesheet" href="assets/css/estrutura.css" media="all" />
-<link type="text/css" rel="stylesheet" href="assets/fonts/stylesheet.css" media="all" />
+<!-- <link type="text/css" rel="stylesheet" href="assets/css/fonts/fonts.css" media="all" /> -->
+<!-- <link type="text/css" rel="stylesheet" href="assets/fonts/stylesheet.css" media="all" /> -->
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="assets/css/BeerSlider.css">
+<script>
+	var randomNumber = Math.floor(Math.random() * (99999 - 10000) + 10000);
+	document.write(' <link type="text/css" rel="stylesheet" href="<?php echo $url ?>assets/css/estrutura.css?v'+randomNumber+'" media="all" /> ')
+</script>
 
 
  

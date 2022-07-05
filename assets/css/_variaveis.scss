@@ -107,35 +107,38 @@ a, ul, li, .link-abre, nav, .menu, section, .ideia, .destaque-ideia, #abrirmenu,
         &.pos-titulo {
             max-width: 250px;
         }
+        &.com-bold {
+            font-weight: bold;
+        }
     }
     &--padrao20 {            
         font-size: 1.25rem;
         line-height: 1.75rem;
-        font-weight: bold;
+        font-weight: 500;
         margin-bottom: 10px;
         &.sem-bold {
-            font-weight: 500;
+            font-weight: 400;
         }
     }
     &--padrao32 {
         font-size: 2rem;
         line-height: 2.625rem;
-        font-weight: bold;
+        font-weight: 500;
         margin-bottom: 10px;
         &.sem-bold {
-            font-weight: 500;
+            font-weight: 400;
         }
     }
     &--padrao40 {            
         font-size: 2.5rem;
         line-height: 2.5rem;
-        font-weight: bold;
+        font-weight: 500;
         margin-bottom: 32px;
         &.proximo {
             margin-bottom: 10px;
         }
         &.sem-bold {
-            font-weight: 500;
+            font-weight: 400;
         }
     }
 }

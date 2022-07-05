@@ -6,35 +6,37 @@
                 <span id="Baixo"></span>
             </a>
             
-            <div class="links">
-            
+            <div class="links">            
                 <ul>
-                    <a class="link-abre active" href="index.php?direct">Essência Einstein</a>
+                    <a class="link-abre active" href="index.php">Essência Einstein</a>
                 </ul>
                 
                 <ul>
                     <a class="link-abre" href="logotipo.php">Logotipos & Símbolo</a>
 
                     <li>
-                        <a href="#sessao1">Descrição</a>
+                        <a href="#sessao2">Versões de marca</a>
                     </li>
                     <li>
-                        <a href="#sessao2">Versões</a>
+                        <a href="#sessao3">Versões do logo</a>
                     </li>
                     <li>
-                        <a href="#sessao3">Redução</a>
+                        <a href="#sessao4">Redução máxima</a>
                     </li>
                     <li>
-                        <a href="#sessao4">Área de proteção</a>
+                        <a href="#sessao5">Área de proteção</a>
                     </li>
                     <li>
-                        <a href="#sessao5">Usos incorretos</a>
+                        <a href="#sessao6">Aplicação sobre fundos</a>
                     </li>
                     <li>
-                        <a href="#sessao6">Customização</a>
+                        <a href="#sessao7">Usos incorretos</a>
                     </li>
                     <li>
-                        <a href="#sessao7">Ícone</a>
+                        <a href="#sessao8">Símbolo</a>
+                    </li>
+                    <li>
+                        <a href="#sessao10">Para se inspirar</a>
                     </li>
                 </ul>
         

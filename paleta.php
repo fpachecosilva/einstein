@@ -26,78 +26,60 @@
                     </article>
                 </header>
 
-                <section id="sessao1" class="p70-65">
+                <section id="sessao1" class="p65-100">
                 <article>
                     <p class="txt--padrao40 txt--bold">Paleta institucional</p>                    
 
                     <div class="grid--2colunas">
-
                         <div class="esq">
                             <div class="txtbl txt-bloco-cima">
                                 <p class="txt--padrao12">
-                                    Marcamos nossa comunicação com muita proximidade e calor.<br><br>
-        
-                                    Vermelho é a principal cor de nossa bandeira, apoiado pela vibração do amarelo
-                                    e a força do azul.
+                                    Azul é a principal cor da nossa identidade, apoiado pelo frescor do turquesa. O branco aparece como uma cor neutra, para tornar os layouts mais sóbrios.
+                                    <br><br>
+                                    PANTONE®: cores de referência e para impressão especial. Sempre que possível, priorize seu uso em impressões offset e serigrafia.
+                                    <br><br>
+                                    CMYK: cores para impressão. Use quando 
+                                    não for possível optar pelas cores Pantone®.
+                                    <br><br>
+                                    RGB: cores para tela. Uso em meios digitais, 
+                                    como site e apresentações.
+                                    <br><br>
+                                    HEXADECIMAL: também para uso em meios digitais – identifica a cor de modo mais 
+                                    simples que o RGB.
                                 </p>
                             </div>
-        
-                            <div class="txtbl txt-bloco-baixo desktopitem">
-                                <p class="txt--padrao12">                            
-                                    PANTONE®: cores de referência e para impressão especial. Sempre que possível, priorize seu uso em impressões offset e serigrafia.<br><br>
-        
-                                    CMYK: cores para impressão. Use quando não for possível optar pelas cores Pantone®.<br><br>
-        
-                                    RGB: cores para tela. Uso em meios digitais, como site e apresentações.<br><br>
-        
-                                    HEXADECIMAL: também para uso em meios digitais – identifica a cor de modo mais simples que o RGB.
-                                </p>   
-                            </div>
-                        </div>
-    
+                        </div>    
                         <div class="dir">
-                            <div class="accordeon">                        
-                                <div class="wrapper-acc">
-                                    <div class="box box1 ativo">
-                                        <p class="nome">Vermelho</p>
-                                        <p class="sub">Cor principal</p>
-                                        <p class="desc">
-                                            RGB - 219 0 71<br>
-                                            CMYK - 0 100 60 0<br>
-                                            HEX - #DB0047<br>
-                                            Pantone® — 1925 C
-                                        </p>
-                                    </div>
-        
-                                    <div class="box box2 corPr">
-                                        <p class="nome">Amarelo</p>
-                                        <p class="sub">Cor secundária</p>
-                                        <p class="desc">
-                                            RGB - 255  247  87<br>
-                                            CMYK - 0  0  80  0<br>
-                                            HEX - #FFF757<br>
-                                            Pantone® — 106 C
-                                        </p>
-                                    </div>
-        
-                                    <div class="box box3">
-                                        <p class="nome">Azul</p>
-                                        <p class="sub">Cor secundária</p>
-                                        <p class="desc">
-                                            RGB -  49  22  89<br>
-                                            CMYK - 100  95   10  30<br>
-                                            HEX - #311659<br>
-                                            Pantone® — 2735 C
-                                        </p>
-                                    </div>
+                            <div class="boxes">
+                                <div class="box">
+                                    <p class="title">Azul</p>
+                                    <p class="corestxt">
+                                        Pantone® — 294C<br>
+                                        CMYK — 100 65 0 20<br>
+                                        RGB — 0 79 146<br>
+                                        HEX — #004F92
+                                    </p>
                                 </div>
-        
-                                <p class="txt--padrao12 baixo-blocos desktopitem">
-                                    Clique nas cores para visualizar suas informações.
-                                </p>
+                                <div class="box">
+                                    <p class="title">Turquesa</p>
+                                    <p class="corestxt">
+                                        Pantone® — 3255C<br>
+                                        CMYK — 60 0 30 0<br>
+                                        RGB — 58 214 202<br>
+                                        HEX — #3AD6CA
+                                    </p>
+                                </div>
+                                <div class="box">
+                                    <p class="title">Branco</p>
+                                    <p class="corestxt">
+                                        Pantone® — 0000C<br>
+                                        CMYK — 0 0 0 0<br>
+                                        RGB — 255 255 255<br>
+                                        HEX — #FFFFFF
+                                    </p>
+                                </div>
                             </div>
                         </div>
-
                         <div class="txtbl txt-bloco-baixo mobileitem">
                             <p class="txt--padrao12">                            
                                 PANTONE®: cores de referência e para impressão especial. Sempre que possível, priorize seu uso em impressões offset e serigrafia.<br><br>
@@ -109,167 +91,197 @@
                                 HEXADECIMAL: também para uso em meios digitais – identifica a cor de modo mais simples que o RGB.
                             </p>   
                         </div>
-
                     </div>
                 </article>
             </section>
 
-            <div class="ideia">
-                <div class="destaque-ideia">
-                    <p class="txt--padrao12">Dica: o azul tem menor uso como cor de fundo, tá?</p>
-                </div>
-            </div>
-
-           <section id="sessao2">
+            <section id="sessao2">
                 <article>
-                    <p class="txt--padrao40 txt--bold">Subtons de apoio</p>                    
-
-                    <div class="grid--2colunas-auto">
-
-                        <div class="esq">
-                            <div class="txtbl txt-bloco-cima">
-                                <p class="txt--padrao12">
-                                    Devem ser usados pontualmente na identidade.<br class="mobileitem"><br class="mobileitem">
-                                    Veja abaixo onde usar:
-                                </p>
-                            </div>
-        
-                            <div class="txtbl txt-bloco-baixo">
-                                <div class="grid--2linhas">
-                                                                            
-                                    <div class="grid--2colunas icones">
-                                        <img src="<? echo $images ?>/paleta/desk/Subtom/Grupo 6109.png" alt="">
-                                        <p class="txt--padrao12">
-                                            Usado apenas como fundo para aplicação
-                                            de iconografia em meios digitais ou grafismos.
-                                        </p>
-                                    </div>
-                                                                        
-                                    <div class="grid--2colunas icones">
-                                        <img src="<? echo $images ?>/paleta/desk/Subtom/Grupo 6111.png" alt="">
-                                        <p class="txt--padrao12">
-                                            Usado pontualmente em grafismos.
-                                        </p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="dir">
-                            <div class="accordeon">
-                                
-                                <div class="wrapper-acc">
-                                    <div class="box box1 ativo">
-                                        <p class="nome">Subtom<br> vermelho</p>                                
-        
-                                        <p class="desc">
-                                            RGB -  179  0  58<br>
-                                            CMYK - 0   95   55   25<br>
-                                            HEX - #B3003A<br>
-                                            Pantone® — 7425 C
-                                        </p>
-                                    </div>
-        
-                                    <div class="box box2 corPr">
-                                        <p class="nome">Subtom<br> amarelo</p>
-                                        <p class="desc">
-                                            RGB -  255  227  76<br>
-                                            CMYK - 0   8   80  0<br>
-                                            HEX - #FFE34C
-                                        </p>
-                                    </div>
-                                </div>
-        
-                                <p class="txt--padrao12 baixo-blocos desktopitem">
-                                    Clique nas cores para visualizar suas informações.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-            </section>
-
-            <section id="sessao3" class="p80-130">
-                <article>
-                    <p class="txt--padrao40">Proporção de uso</p>
+                    <p class="txt--padrao40">Paleta secundária por público</p>
                     <p class="txt--padrao12 pos-titulo">
-                        Vai acontecer de ter peças com diferentes
-                        quantidades de textos, produtos e preços tudo junto.<br><br>
+                        São as cores complementares da comunicação, usadas para diferenciar 
+                        os públicos. Seu uso é sempre pontual e em menor proporção que as cores institucionais, como é sugerido abaixo:
+                    </p>
+                    
+                    <div class="modulo-abas">     
+                        <div class="nav_tabs">
+                            <ul class="nav desktopitem">
+                                <li nav="0" class="active">Pacientes</li>
+                                <li nav="1">Médicos</li>
+                                <li nav="2">Soluções corporativas</li>
+                                <div class="slider">
+                                    <div class="slider-bar"></div>
+                                </div>
+                            </ul>
+                            <p class="subtitulo mobileitem">Pacientes</p>
+                            <div class="content">
+                                <div class="tab pacientes active">
+                                    <div class="wrapper grid--3linhas">
+                                        <div class="cima boxes">
+                                            <div class="esq">
+                                                <p class="txt--padrao12 com-bold">Rosa-paciente</p>
+                                                <p class="txt--padrao12">Para textos e ícones sobre fundo branco.</p>
+                                            </div>
+                                            <div class="dir box">
+                                                <p>Pantone – 1777C</p>
+                                                <P>CMYK – 0 75 35 0</p>
+                                                <p>RGB – 238 90 123</p>
+                                                <P>HEX – #ee5a7b</p>
+                                            </div>
+                                        </div>
+                                        <div class="meio boxes">
+                                            <div class="esq">
+                                                <p class="txt--padrao12 com-bold">Rosa-médio</p>
+                                                <p class="txt--padrao12">Para textos e ícones sobre fundo Azul-Einstein.</p>
+                                            </div>
+                                            <div class="dir box">
+                                                <p>RGB – 255 166 186</p>
+                                                <p>HEX – #ffa6ba</p>
+                                            </div>
+                                        </div>
+                                        <div class="baixo boxes">
+                                            <div class="esq">
+                                                <p class="txt--padrao12 com-bold">Rosa-claro</p>
+                                                <p class="txt--padrao12">Sobre tom para fundos.</p>
+                                            </div>
+                                            <div class="dir box">
+                                                <p>RGB – 255 201 213</p>
+                                                <p>HEX – #ffc9d5</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <p class="subtitulo mobileitem">Médicos</p>
+                                <div class="tab medicos">
+                                    <div class="wrapper grid--3linhas">
+                                        <div class="cima boxes">
+                                            <div class="esq">
+                                                <p class="txt--padrao12 com-bold">Laranja-médico</p>
+                                                <p class="txt--padrao12">Para textos e ícones sobre fundo branco.</p>
+                                            </div>
+                                            <div class="dir box">
+                                                <p>Pantone – 716C</p>
+                                                <p>CMYK – 0 65 100 0</p>
+                                                <p>RGB – 227 116 12</p>
+                                                <p>HEX – #e3740c</p>
+                                            </div>
+                                        </div>
+                                        <div class="meio boxes">
+                                            <div class="esq">
+                                                <p class="txt--padrao12 com-bold">Laranja-médio</p>
+                                                <p class="txt--padrao12">Para textos e ícones sobre fundo Azul-Einstein.</p>
+                                            </div>
+                                            <div class="dir box">
+                                                <p>RGB – 255 177 87</p>
+                                                <p>HEX – #ffb157</p>
+                                            </div>
+                                        </div>
+                                        <div class="baixo boxes">
+                                            <div class="esq">
+                                                <p class="txt--padrao12 com-bold">Laranja-claro</p>
+                                                <p class="txt--padrao12">Sobre tom para fundos.</p>
+                                            </div>
+                                            <div class="dir box">
+                                                <p>RGB – 255 228 199</p>
+                                                <p>HEX – #ffe4c7</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-                        Use as combinações e proporções de cores abaixo
-                        como suas aliadas para ajudar na leitura e organização
-                        de informações.
+                                <p class="subtitulo mobileitem">Soluções corporativas</p>
+                                <div class="tab solucoes">
+                                    <div class="wrapper grid--3linhas">
+                                        <div class="cima boxes">
+                                            <div class="esq">
+                                                <p class="txt--padrao12 com-bold">Roxo-paciente</p>
+                                                <p class="txt--padrao12">Para textos e ícones sobre fundo branco.</p>
+                                            </div>
+                                            <div class="dir box">
+                                                <p>Pantone – 266C</p>
+                                                <p>CMYK – 75 85 0 0</p>
+                                                <p>RGB – 120 70 212</p>
+                                                <p>HEX – #7846d4</p>
+                                            </div>
+                                        </div>
+                                        <div class="meio boxes">
+                                            <div class="esq">
+                                                <p class="txt--padrao12 com-bold">Roxo-médio</p>
+                                                <p class="txt--padrao12">Para textos e ícones sobre fundo Azul-Einstein.</p>
+                                            </div>
+                                            <div class="dir box">
+                                                <div class="wrapper-cores-2linhas">
+                                                    <div>
+                                                        <p>Pantone – 529C</p>
+                                                        <p>CMYK – 15 40 0 0</p>
+                                                    </div>
+                                                    <div>
+                                                        <p>RGB – 211 186 255</p>
+                                                        <p>HEX – #d3baff</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="baixo boxes">
+                                            <div class="esq">
+                                                <p class="txt--padrao12 com-bold">Roxo-claro</p>
+                                                <p class="txt--padrao12">Sobre tom para fundos.</p>
+                                            </div>
+                                            <div class="dir box">
+                                                <p>RGB – 232 221 255</p>
+                                                <p>HEX – #e8ddff</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                             
+                        </div>
+                </article>
+            </section>
+
+            <section id="sessao3" class="">
+                <article>
+                    <p class="txt--padrao40">Proporções de uso</p>
+                    <p class="txt--padrao12 pos-titulo">
+                        Utilize a proporção de cores abaixo em todos os
+                        layouts e aplicações, buscando manter a consistência 
+                        e fortalecendo o reconhecimento de cada público.
                     </p>
 
-                    <p class="txt--padrao20 volume">Por volume de informação</p>
-
-                    <div class="grid--3colunas">
-                        
-                        <div class="modulo-imagens-com-texto com-divisor">
-                            <div>
-                                <p class="txt--padrao12 txt--bold">Baixo</p>
-                                <img src="<? echo $images ?>/paleta/desk/Proporcao/Elipse 96.png" alt="">
-                                <p class="txt--padrao12">1 cor</p>    
-                                <span class="divisor"></span>
-
-                                <div class="col-img mobileitem">
-                                    <p class="txt--padrao12"><strong>Exemplo:</strong> Stories de Instagram</p>
-                                    <img class="img-col" src="<? echo $images ?>/paleta/desk/Proporcao/proporcao-col-1.png" alt="">
+                    <div class="wrapper-proporcoes">
+                        <div class="grid--2linhas">
+                            <div class="cima">
+                                <div class="esq">
+                                    <p class="txt--padrao12 com-bold">PRINCIPAIS</p>
+                                    <p class="txt--padrao12">
+                                        São as cores proprietárias da marca
+                                        e têm maior presença de uso:
+                                        de massa de cor a textos e grafismos.
+                                    </p>
                                 </div>
-                            </div>    
-                        </div>
-                        
-                        <div class="modulo-imagens-com-texto com-divisor">
-                            <div>
-                                <p class="txt--padrao12 txt--bold">Médio</p>
-                                
-                                <div class="central-com-texto">
-                                    <img src="<? echo $images ?>/paleta/desk/Proporcao/Grupo 6093.png" alt="">
-                                    <p class="txt--padrao12">ou</p>
-                                    <img src="<? echo $images ?>/paleta/desk/Proporcao/Grupo 6094.png" alt="">
-                                </div>
-                                
-                                <p class="txt--padrao12">Set 2 cores</p>
-                                <span class="divisor"></span>
-
-                                <div class="col-img mobileitem">
-                                    <p class="txt--padrao12"><strong>Exemplo:</strong> Tela de aplicativo</p>
-                                    <img class="img-col" src="<? echo $images ?>/paleta/desk/Proporcao/proporcao-col-2.png" alt="">
+                                <div class="dir">
+                                    <div class="linha linha1"><span></span><span></span><span></span></div>
+                                    <div class="linha linha2"><span></span><span></span><span></span></div>
+                                    <div class="linha linha3"><span></span><span></span><span></span></div>
                                 </div>
                             </div>
-                        </div>
-                        
-                        <div class="modulo-imagens-com-texto com-divisor">
-                            <div>
-                                <p class="txt--padrao12 txt--bold">Alto</p>
-                                <img src="<? echo $images ?>/paleta/desk/Proporcao/Grupo 5175.png" alt="">                                
-                                <p class="txt--padrao12">Set 3 cores</p>
-
-                                <div class="col-img mobileitem">
-                                    <p class="txt--padrao12"><strong>Exemplo:</strong> Folheto de promoções</p>
-                                    <img class="img-col" src="<? echo $images ?>/paleta/desk/Proporcao/proporcao-col-3.png" alt="">
+                            <div class="baixo">
+                                <div class="esq">
+                                    <p class="txt--padrao12 com-bold">SECUNDÁRIAS POR PÚBLICO</p>
+                                    <p class="txt--padrao12">
+                                        Tem uso pontual e com menor presença
+                                        nas composições, com foco em textos
+                                        de destaque ou ícones.
+                                    </p>
+                                </div>
+                                <div class="dir">
+                                    <div class="linha linha1"><span></span><span></span><span></span></div>
+                                    <div class="linha linha2"><span></span><span></span><span></span></div>
+                                    <div class="linha linha3"><span></span><span></span><span></span></div>
                                 </div>
                             </div>
-                        </div>                        
-
-                    </div>
-
-
-                    <div class="grid--3colunas col-wrapper">
-                        <div class="col-img">
-                            <p class="txt--padrao12"><strong>Exemplo:</strong> Stories de Instagram</p>
-                            <img class="img-col" src="<? echo $images ?>/paleta/desk/Proporcao/proporcao-col-1.png" alt="">
-                        </div>
-    
-                        <div class="col-img">
-                            <p class="txt--padrao12"><strong>Exemplo:</strong> Tela de aplicativo</p>
-                            <img class="img-col" src="<? echo $images ?>/paleta/desk/Proporcao/proporcao-col-2.png" alt="">
-                        </div>
-    
-                        <div class="col-img">
-                            <p class="txt--padrao12"><strong>Exemplo:</strong> Folheto de promoções</p>
-                            <img class="img-col" src="<? echo $images ?>/paleta/desk/Proporcao/proporcao-col-3.png" alt="">
                         </div>
                     </div>
 

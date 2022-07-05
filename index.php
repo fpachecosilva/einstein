@@ -13,40 +13,8 @@
     </head>    
 
     <body id="essencia">
-
-        <div id="topo">
-            <article>
-                <img src="<? echo $images ?>Grupo 6094_home.png" alt="" class="bgamarelo desktopitem">
-                <img src="<? echo $images ?>Grupo 5840.png" alt="" class="bgvermelho desktopitem">
-                <img src="<? echo $images ?>Caminho 5111.png" alt="" class="setinha desktopitem">
-                
-                <img src="<? echo $images ?>bgamarelohome_mobile.png" alt="" class="bgamarelo mobileitem">
-                <img src="<? echo $images ?>bgvermelhohome_mobile.png" alt="" class="bgvermelho mobileitem">
-                <img src="<? echo $images ?>setatopohome_mobile.png" alt="" class="setinha mobileitem">
-
-                
-
-                <p class="bemvindo">Bem-vindo(a) ao Brandbook Online Mercê do Bairro.</p>
-                <img class="olaalo desktopitem" src="<? echo $images ?>olaalo.png" alt="">
-                <img class="olaalo mobileitem" src="<? echo $images ?>olaalohome_mobile.png" alt="">
-                <div class="botaoLogin">
-                    <a class="login" href="">Acessar</a>
-                    <p class="desenvolvido desktopitem">Desenvolvido por <strong>Marcas Com SAL</strong></p>
-                </div>
-                <img class="logo" src="<? echo $images ?>LogoDesktop.png" alt="">
-                <img class="boneco" src="<? echo $images ?>Grupo 6095.png" alt="">
-
-            </article>
-            <div class="vermais">
-                <p class="txt--padrao20 desktopitem">Ver mais</p>
-                <p class="desenvolvido mobileitem">Desenvolvido por <strong>Marcas Com SAL</strong></p>
-            </div>
-        </div>
-
         <div class="container">
-
             <?php include 'assets/menu.php'; ?>
-
             <main>                
                 <header class="topobg">                    
                     <div class="pelicula"></div>
@@ -131,7 +99,7 @@
                                 </ul>
                                 <p class="subtitulo mobileitem">Logotipo preferencial</p>
                                 <div class="content">
-                                    <div class="tab preferencial ">
+                                    <div class="tab preferencial active">
                                         <div class="wrapper">
                                             <div class="esq">
                                                 <p>Missão</p>
@@ -156,7 +124,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="tab preferencial active">
+                                    <div class="tab preferencial">
                                         <div class="wrapper">
                                             <div class="esq">
                                                 <p>Valores Organiza-cionais</p>
@@ -189,7 +157,6 @@
 
                 <? include ('assets/footer.php') ?>
             </main>
-
         </div>
     
         <script type="text/javascript">

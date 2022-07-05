@@ -1,17 +1,8 @@
-/* 
-	Hello, guys!! :)
-	JS desenvolvido pela bs.agency em 2020. 
-
-	Façam bom uso :)
-*/
 
 jQuery(document).ready(function () {
-
-	// Variáveis:
 	var BreakPoint = 1050;
 	var WidthDevice = $(window).width();
 	var heightDevice = $(window).height();
-	// :Variáveis
 
 	// Reload no resize da página:
 	var screen = '';
@@ -29,7 +20,6 @@ jQuery(document).ready(function () {
 			location.reload();
 		}
 	});
-	// :Reload no resize da página    
 
 	// Decodificando SVG:
 	$('img.svg').each(function () {
@@ -44,7 +34,6 @@ jQuery(document).ready(function () {
 			if (!$svg.attr('viewBox') && $svg.attr('height') && $svg.attr('width')) { $svg.attr('viewBox', '0 0 ' + $svg.attr('height') + ' ' + $svg.attr('width')) } $img.replaceWith($svg);
 		}, 'xml');
 	});
-	// :Decodificando SVG
 
 	// Verificando Android ou IOS:
 	function getMobileOperatingSystem() {
@@ -56,9 +45,7 @@ jQuery(document).ready(function () {
 		} else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) { // iOS
 			$('.Android').remove();
 		}
-	} getMobileOperatingSystem();
-	// :Verificando Android ou IOS
-
+	} getMobileOperatingSystem();	
 
 	// Scroll suave
 	$('nav a[href^="#"]').on('click', function (e) {
@@ -71,62 +58,6 @@ jQuery(document).ready(function () {
 		}, 500);
 	});
 
-
-
-
-	//TOPO
-	$('#topo .login').click(function (e) {
-		e.preventDefault();
-		$('.setinha').addClass('ativada')
-		$('.bgamarelo').css('opacity', '0')
-		$('.bgvermelho').addClass('ativado')
-		$('form').fadeIn()
-		$('.boneco').addClass('some')
-		$('#topo').css('background-color', '#B3003A')
-	})
-
-
-	// Trava Scroll se for home
-	$(document).ready(function () {
-		if ($('body').attr('id') == 'essencia' && $(window).scrollTop() == 0) {
-			$('html, body').css({
-				overflow: 'hidden',
-				height: '100%'
-			});
-		}
-	})
-
-
-	// Se for clicado no link da Home nao vai para o "login"
-	$(document).ready(function () {
-
-		let url = window.location.href;
-		if (url.includes('direct')) {
-			document.getElementById('topo').style.display = 'none';
-			$('main').css('margin-top', '0');
-
-			$('html, body').css('overflow', 'auto');
-		}
-	})
-
-
-	$('.login').click(function (e) {
-		e.preventDefault()
-		$(this).css('opacity', '0')
-		$(this).css('cursor', 'unset')
-		$('form').fadeOut();
-		$('.setinha').removeClass('desktopitem')
-		$('.setinha').css('display', 'none')
-		$('#topo').css('background-color', 'var(--secundaria)')
-		$('.vermais p').addClass('active')
-
-
-		// Libera o scroll
-		$('html, body').css('overflow', 'auto');
-	})
-
-
-
 	// Controle do ver mais
 	$(document).scroll(function () {
 		if ($(window).scrollTop() === 0) {
@@ -138,22 +69,16 @@ jQuery(document).ready(function () {
 		}
 	});
 
-
-
 	// QUIZ
 	$('.quiz').each(function () {
-
 		var sessao = $(this).parent().parent().attr('id');
 		sessao = '#' + sessao;
-
 		var divsDir = $(this).find('.dir div')
 		var divEsq = $(this).find('.esq')
-
 
 		$(divEsq).click(function () {
 			$(this).removeClass('certo errado')
 		})
-
 
 		$(divsDir).each(function () {
 			$(this).click(function () {
@@ -223,7 +148,6 @@ jQuery(document).ready(function () {
 		})
 
 		var ativo = $(sessao + ' .dir span.active').index();
-
 		$(sessao + ' .setas .voltar').click(function () {
 
 			$(divEsq).removeClass('certo errado')
@@ -258,26 +182,7 @@ jQuery(document).ready(function () {
 				})
 			}
 		})
-
-		// Controle de cores
-		// $(sessao + ' .cima').click(function () {
-		// 	$(sessao + ' .quiz').removeClass('certo')
-		// 	$(sessao + ' .quiz').toggleClass('errado')
-
-		// })
-
-		// $(sessao + ' .baixo').click(function () {
-		// 	$(sessao + ' .quiz').removeClass('errado')
-		// 	$(sessao + ' .quiz').toggleClass('certo')
-		// })
-
-		// $(sessao + ' .principal').click(function () {
-		// 	$(sessao + ' .quiz').removeClass('errado certo')
-		// })
-
 	})
-
-
 
 	// Aplicacoes Slider
 	$('.slick').slick({
@@ -299,11 +204,9 @@ jQuery(document).ready(function () {
 		adaptiveHeight: true
 	});
 
-
 	$(document).ready(function () {
 		$('.slick-prev').css('background-image', 'url("assets/img/voltar-white.png")');
 	})
-
 
 	$('.slick-prev').click(function () {
 		$('.slick').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
@@ -328,47 +231,19 @@ jQuery(document).ready(function () {
 		});
 	})
 
-
-
-
 	// Beer Slider		
 	window.onload = (function () {
 		var altura = $('#beer-slider').height() - 4 + 'px';
 
 		$('.beer-handle').append('<div class="risco"></div>');
 		$('.risco').css('height', altura);
-
-		// var inicial = $('.wrapper-slider').attr('inicial');
-		// $('.beer-reveal').css('width', inicial)
-		// $('.beer-handle').css('left', inicial)
-
 	})
-
-
-	// $(".wrapper-slider").click(function(){		
-	// 	var inicial = $(this).attr('inicial');
-	// 	var final = $(this).attr('final');
-
-	// 	if ( $(this).attr('estagio') == 'final' ) {					
-	// 			$(".beer-handle").animate({left:inicial}, 300)
-	// 			$(".beer-reveal").animate({width:inicial}, 300)
-	// 			$(this).attr('estagio','inicial');
-	// 		} else {
-	// 			$(".beer-handle").animate({left:final}, 300)
-	// 			$(".beer-reveal").animate({width:final}, 300)
-	// 			$(this).attr('estagio','final');
-	// 		}
-	// })
-
-
-
 
 	// Accordeon		
 	$('.wrapper-acc .box').click(function () {
 		$(this).addClass('ativo');
 		$(this).siblings().removeClass('ativo');
 	})
-
 
 	// Definir cores de background dos blocos em Ilustracao
 	$('.bloco').each(function (index, element) {
@@ -378,14 +253,12 @@ jQuery(document).ready(function () {
 		$(this).css('background-color', ultima);
 	});
 
-
 	// Procurar cor e setar como background
 	document.onload = getBgColor()
-
 	function getBgColor() {
-		let boxes = document.querySelectorAll('.accordeon .box .desc');
+		let boxes = document.querySelectorAll('.boxes .box');
 		let box = document.querySelectorAll('.box');
-
+		
 		for (var i = 0; i < boxes.length; i++) {
 			texto = boxes[i].innerText;
 			regexp = /(#......)/;
@@ -396,7 +269,6 @@ jQuery(document).ready(function () {
 
 	// Navegacao Footer
 	document.onload = atualizaFooter();
-
 	function atualizaFooter() {
 		var links = $('.link-abre');
 		var primeiroLink = $('.links ul:first-child a');
@@ -415,12 +287,12 @@ jQuery(document).ready(function () {
 			$(linkFooter).attr('href', primeiroLinkUrl)
 			$(nomeFooter)[0].innerHTML = primeiroLinkTexto;
 		}
-
 	}
+
+	
 
 	// Funções executadas apenas na versão Desktop:
 	function DesktopVersion() {
-
 		//Nav Tabs		
 		$(document).ready(function () {
 			setTimeout(function () {
@@ -448,7 +320,6 @@ jQuery(document).ready(function () {
 				$(slider).width(size)
 				$(slider).css('margin-left', pos)
 			})
-
 		})
 
 		// Navegacao Menu		
@@ -460,7 +331,6 @@ jQuery(document).ready(function () {
 
 		// Controle de abertura do menu
 		document.onload = showMenu();
-
 		function showMenu() {
 			$('.link-abre.active').siblings().fadeIn(200);
 
@@ -468,11 +338,7 @@ jQuery(document).ready(function () {
 				$('.link-abre.active').removeClass('active')
 			}
 		}
-
 	}
-	// :Funções executadas apenas na versão Desktop
-
-
 
 	// Funções executadas apenas na versão Mobile:
 	function MobileVersion() {
@@ -509,8 +375,6 @@ jQuery(document).ready(function () {
 			$('#abrirmenu').click();
 		})
 
-
-
 		// TOPO
 		$('#topo .login').click(function (e) {
 			e.preventDefault();
@@ -530,20 +394,19 @@ jQuery(document).ready(function () {
 			$('body, html').css('overflow', 'auto')
 			$('body, html').css('height', 'auto')
 		})
-
-
-
 	}
-	// :Funções executadas apenas na versão Mobile
-
-
 
 	// Executando versionamentos
 	if (WidthDevice <= 900) { MobileVersion(); } else { DesktopVersion(); }
 	// FadeIn da página após o carregamento.
 	$('body').fadeIn(1000);
-	// ScrollTop
-	// $('html, body').animate({scrollTop: '0px'}, 600);
 
-
+	function resizeImgs() {
+		document.querySelectorAll('.redux').forEach((image) => {
+			let size = image.naturalWidth
+			let newSize = size / 2
+			image.width = newSize
+		})
+	}
+	resizeImgs()
 });
