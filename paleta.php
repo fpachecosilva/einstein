@@ -262,6 +262,7 @@
                                     </p>
                                 </div>
                                 <div class="dir">
+                                    <span></span>
                                     <div class="linha linha1"><span></span><span></span><span></span></div>
                                     <div class="linha linha2"><span></span><span></span><span></span></div>
                                     <div class="linha linha3"><span></span><span></span><span></span></div>
@@ -277,9 +278,15 @@
                                     </p>
                                 </div>
                                 <div class="dir">
+                                    <span></span>
                                     <div class="linha linha1"><span></span><span></span><span></span></div>
                                     <div class="linha linha2"><span></span><span></span><span></span></div>
                                     <div class="linha linha3"><span></span><span></span><span></span></div>
+                                    <div class="linha linha4">
+                                        <p class="txt--padrao12">INSTITUCIONAL / PACIENTES</p>
+                                        <p class="txt--padrao12">MÉDICOS</p>
+                                        <p class="txt--padrao12">SOLUÇÕES CORPORATIVAS</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -288,24 +295,123 @@
                 </article>
             </section>
 
-            <section id="sessao4" class="p80-65">
+            <section id="sessao4" class="">
                 <article>
-                    <p class="txt--padrao40">Cor + Texto</p>
-                    
-                    <div class="blocos grid--3colunas">
-                        <div class="col">
-                            <div class="bloco">Aa</div>
-                            <div class="bloco">Aa</div>
-                        </div>
+                    <p class="txt--padrao40 proximo">Lógica para campanhas</p>
+                    <p class="txt--padrao12 pos-titulo">
+                        Nossa comunicação ao longo do ano pode ter diferentes temas, sejam campanhas internas, sejam temas nacionais. Para manter nossa consistência, nossa identidade reage a possíveis cenários das seguintes formas:
+                    </p>
+                    <p class="txt--padrao20">Para campanhas ou datas com elementos e/ou cores próprias</p>
+                    <p class="txt--padrao12">
+                        <strong>Exemplos:</strong> Laço Campanha do Câncer, Cores dos meses<br><br>
 
-                        <div class="col">
-                            <div class="bloco">Aa</div>
-                            <div class="bloco">Aa</div>
-                        </div>
+                        <strong>Como a identidade responde:</strong><br>
+                        • Reduzimos a presença de uma das cores da paleta<br>
+                        • Absorvemos os códigos visuais da campanha (elemento gráfico ou cor)
+                    </p>
 
-                        <div class="col">
-                            <div class="bloco">Aa</div>
-                            <div class="bloco">Aa</div>
+                    <div class="antesedepois">
+                        <div class="esq">
+                            <p class="txt--padrao12 com-bold">ANTES</p>
+                            <img class="redux" src="<? echo $images ?>paleta/4-Logica para campanhas/Grupo 7701@2x.jpg" alt="">
+                        </div>
+                        <div class="dir">
+                            <p class="txt--padrao12 com-bold">DEPOIS</p>
+                            <img class="redux" src="<? echo $images ?>paleta/4-Logica para campanhas/Grupo 7700@2x.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="coresdomes">
+                        <div class="esq">
+                            <p class="txt--padrao12 com-bold">CORES EINSTEIN</p>
+                            <div class="bolas">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="dir">
+                            <p class="txt--padrao12 com-bold">+ CORES DO MÊS</p>
+                            <p class="txt--padrao12 txtcores12">As duas cores de nossa paleta principal com melhor contraste devem permanecer. Veja os exemplos abaixo:</p>
+                            <div class="linha linha1">
+                                <div>
+                                    <span></span>
+                                    <img class="redux" src="<? echo $images ?>paleta/4-Logica para campanhas/Grupo 7732-1@2x.png" alt="">
+                                </div>
+                                <div>
+                                    <span></span>
+                                    <img class="redux" src="<? echo $images ?>paleta/4-Logica para campanhas/Grupo 7733-1@2x.png" alt="">
+                                </div>
+                                <div>
+                                    <span></span>
+                                    <img class="redux" src="<? echo $images ?>paleta/4-Logica para campanhas/Grupo 7732-1@2x.png" alt="">
+                                </div>
+                                <p>Junho laranja</p>
+                            </div>
+                            <div class="linha linha2">
+                                <div>
+                                    <span></span>
+                                    <img class="redux" src="<? echo $images ?>paleta/4-Logica para campanhas/Grupo 7732-1@2x.png" alt="">
+                                </div>
+                                <div>
+                                    <span></span>
+                                    <img class="redux" src="<? echo $images ?>paleta/4-Logica para campanhas/Grupo 7733-1@2x.png" alt="">
+                                </div>
+                                <div>
+                                    <span></span>
+                                    <img class="redux" src="<? echo $images ?>paleta/4-Logica para campanhas/Grupo 7732-1@2x.png" alt="">
+                                </div>
+                                <p>Novembro azul</p>
+                            </div>
+                            <div class="linha linha3">
+                                <div>
+                                    <span></span>
+                                    <img class="redux" src="<? echo $images ?>paleta/4-Logica para campanhas/Grupo 7732-1@2x.png" alt="">
+                                </div>
+                                <div>
+                                    <span></span>
+                                    <img class="redux" src="<? echo $images ?>paleta/4-Logica para campanhas/Grupo 7733-1@2x.png" alt="">
+                                </div>
+                                <div>
+                                    <span></span>
+                                    <img class="redux" src="<? echo $images ?>paleta/4-Logica para campanhas/Grupo 7732-1@2x.png" alt="">
+                                </div>
+                                <p>Setembro verde</p>
+                            </div>
+                            <div class="linha linha4">
+                                <div>
+                                    <span></span>
+                                    <img class="redux" src="<? echo $images ?>paleta/4-Logica para campanhas/Grupo 7732-1@2x.png" alt="">
+                                </div>
+                                <div>
+                                    <span></span>
+                                    <img class="redux" src="<? echo $images ?>paleta/4-Logica para campanhas/Grupo 7733-1@2x.png" alt="">
+                                </div>
+                                <div>
+                                    <span></span>
+                                    <img class="redux" src="<? echo $images ?>paleta/4-Logica para campanhas/Grupo 7732-1@2x.png" alt="">
+                                </div>
+                                <p>Outubro Rosa</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="txt--padrao20">Para campanhas coletivas de saúde ou conscientização já estabelecidas nacionalmente</p>
+                    <p class="txt--padrao12">
+                        <strong>Exemplos:</strong> Dia do coração, Campanha de doação de sangue, etc.
+                        <br><br>
+                        <strong>Como a identidade responde:</strong><br>
+                        • Seguimos com a linguagem IDV Einstein
+                    </p>
+
+                    <div class="antesedepois">
+                        <div class="esq">
+                            <p class="txt--padrao12 com-bold">ANTES</p>
+                            <img class="redux" src="<? echo $images ?>paleta/4-Logica para campanhas/Grupo 7952.png" alt="">
+                        </div>
+                        <div class="dir">
+                            <p class="txt--padrao12 com-bold">DEPOIS</p>
+                            <img class="redux" src="<? echo $images ?>paleta/4-Logica para campanhas/Grupo 7953.png" alt="">
                         </div>
                     </div>
                 </article>
@@ -316,9 +422,9 @@
                     <p class="txt--padrao40">Para se inspirar</p>
 
                     <div class="wrapper slick">
-                        <img src="<? echo $images ?>/pranchas/CavaleteOferta.png" alt="">
-                        <img src="<? echo $images ?>/pranchas/Bag.png" alt="">
-                        <img src="<? echo $images ?>/pranchas/SetStories.png" alt="">
+                        <img src="<? echo $images ?>pranchas/tomarvacina.png" alt="">
+                        <img src="<? echo $images ?>pranchas/novidadesnoeinsteingoiania.png" alt="">
+                        <img src="<? echo $images ?>pranchas/novovirus.png" alt="">
                     </div>
                 </article>
             </section>

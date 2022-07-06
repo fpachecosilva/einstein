@@ -52,18 +52,12 @@ if ( $paginaAtual == 'Logotipo' ) {
 if ( $paginaAtual == 'Paleta' ) {
     
     $logotipoTitulo_01 = "";
-    $logotipoLink_01 = $download. "cores/AF_Merce_Cores.zip";
-    $logotipoTexto_01 = "AF_Merce_Cores.zip";
+    $logotipoLink_01 = $download. "_Cores/AF_HIAE_Cores.zip";
+    $logotipoTexto_01 = "AF_HIAE_Cores.zip";
 
     echo'
         <section id="download">
             <article>
-                <div class="compartilhar desktopitem">
-                    <a href=" '.$compartilhar.' " class="share">
-                        <p>Compartilhar sessão</p>
-                    </a>
-                </div>
-
                 <p class="txt--padrao40 txt--bold">Download</p>
                 
                 <div class="grid--2colunas">
@@ -85,40 +79,22 @@ if ( $paginaAtual == 'Tipografia' ) {
     $logotipoTitulo_01 = "";
     $logotipoLink_01 = $download. "";
     $logotipoTexto_01 = "";
-
-    echo'
-        <section id="download">
-            <article>
-                <div class="compartilhar desktopitem">
-                    <a href=" '.$compartilhar.' " class="share">
-                        <p>Compartilhar sessão</p>
-                    </a>
-                </div>
-            </article>
-        </section>
-    ';
 }
 
 
-if ( $paginaAtual == 'Essencia' ) {
+if ( $paginaAtual == 'Iconografia' ) {
     
-    $logotipoTitulo_01 = "Essência Mercê";
-    $logotipoLink_01 = $download. "essencia/AF_Merce_Essencia.zip";
-    $logotipoTexto_01 = "AF_Merce_Essencia.zip";
+    $logotipoTitulo_01 = "Em imagem";
+    $logotipoLink_01 = $download. "_Iconografia/AF_HIAE_DeckIcones_RGB_PNG.zip";
+    $logotipoTexto_01 = "AF_HIAE_DeckIcones_RGB_PNG.zip";
     
-    $logotipoTitulo_02 = "Manifesto";
-    $logotipoLink_02 = $download. "essencia/AF_Merce_Manifesto.zip";
-    $logotipoTexto_02 = "AF_Merce_Manifesto.zip";   
+    $logotipoTitulo_02 = "Em vetor";
+    $logotipoLink_02 = $download. "_Iconografia/AF_HIAE_DeckIcones_RGB_Vetor.zip";
+    $logotipoTexto_02 = "AF_HIAE_DeckIcones_RGB_Vetor.zip";   
 
     echo'
         <section id="download">
             <article>
-                <div class="compartilhar desktopitem">
-                    <a href=" '.$compartilhar.' " class="share">
-                        <p>Compartilhar sessão</p>
-                    </a>
-                </div>
-
                 <p class="txt--padrao40 txt--bold">Download</p>
                 
                 <div class="grid--2colunas">

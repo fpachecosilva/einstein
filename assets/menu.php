@@ -44,16 +44,19 @@
                     <a class="link-abre" href="paleta.php">Paleta cromática</a>
 
                     <li>
-                        <a href="#sessao1">Institucional</a>
+                        <a href="#sessao1">Paleta Institucional</a>
                     </li>
                     <li>
-                        <a href="#sessao2">Subtons de Apoio</a>
+                        <a href="#sessao2">Paleta secundária por público</a>
                     </li>
                     <li>
-                        <a href="#sessao3">Proporção de uso</a>
+                        <a href="#sessao3">Proporções de uso</a>
                     </li>
                     <li>
-                        <a href="#sessao4">Cor + texto</a>
+                        <a href="#sessao4">Lógica para campanhas</a>
+                    </li>            
+                    <li>
+                        <a href="#sessao5">Para se inspirar</a>
                     </li>            
                 </ul>
         
@@ -61,7 +64,7 @@
                     <a class="link-abre" href="tipografia.php">Tipografia</a>
 
                     <li>
-                        <a href="#sessao1">Diretrizes</a>
+                        <a href="#sessao1">Nossas fontes</a>
                     </li>
                     <li>
                         <a href="#sessao2">Hierarquia</a>
@@ -69,13 +72,39 @@
                     <li>
                         <a href="#sessao3">Acessibilidade</a>
                     </li>            
+                    <li>
+                        <a href="#sessao4">Para se inspirar</a>
+                    </li>            
                 </ul>        
                 
                 <ul>
                     <a class="link-abre" href="iconografia.php">Iconografia</a>
+
+                    <li>
+                        <a href="#sessao1">Deck</a>
+                    </li>
+                    <li>
+                        <a href="#sessao2">Boas práticas</a>
+                    </li>
+                    <li>
+                        <a href="#sessao3">Sobre fundos coloridos</a>
+                    </li>            
+                    <li>
+                        <a href="#sessao4">Para evitar</a>
+                    </li>
+                    <li>
+                        <a href="#sessao5">Para se inspirar</a>
+                    </li>
                 </ul>
                 <ul>
                     <a class="link-abre" href="ilustracao.php">Ilustração</a>
+
+                    <li>
+                        <a href="#sessao1">Ilustração</a>
+                    </li>
+                    <li>
+                        <a href="#sessao2">Customização</a>
+                    </li>
                 </ul>
 
                 <ul>

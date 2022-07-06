@@ -2214,6 +2214,7 @@ header h1 {
 }
 
 #paleta #sessao3 .wrapper-proporcoes .grid--2linhas > div .dir {
+  position: relative;
   width: 70%;
 }
 
@@ -2244,12 +2245,33 @@ header h1 {
   border: 1px solid var(--terciaria);
 }
 
+#paleta #sessao3 .wrapper-proporcoes .grid--2linhas > div .dir .linha4 p {
+  width: 175px;
+  text-align: center;
+  margin-top: 10px;
+}
+
 #paleta #sessao3 .cima .dir span, #paleta #sessao3 .baixo .dir span {
   display: block;
   width: 175px;
   height: 125px;
   border-radius: 4px;
   border: 1px solid transparent;
+}
+
+#paleta #sessao3 .cima {
+  margin-top: 45px;
+}
+
+#paleta #sessao3 .cima .dir > span {
+  position: absolute;
+  left: 0;
+  width: 1px;
+  border: 0;
+  background-color: var(--terciaria);
+  height: 244px;
+  top: 50%;
+  margin-top: -122px;
 }
 
 #paleta #sessao3 .baixo {
@@ -2298,229 +2320,413 @@ header h1 {
   background-color: #E8DDFF !important;
 }
 
-#paleta #sessao4 .blocos .col {
-  margin: auto;
+#paleta #sessao3 .baixo .dir > span {
+  position: absolute;
+  left: 0;
+  width: 1px;
+  border: 0;
+  background-color: var(--terciaria);
+  height: 43px;
+  top: 50%;
+  margin-top: -21.5px;
 }
 
-#paleta #sessao4 .blocos .col .bloco {
+#paleta #sessao4 {
+  background-color: var(--bgcinza);
+}
+
+#paleta #sessao4 .pos-titulo {
+  max-width: 486px;
+}
+
+#paleta #sessao4 .txt--padrao20 {
+  margin-top: 60px;
+}
+
+#paleta #sessao4 .antesedepois {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 33px;
+  margin-top: 40px;
+  margin-bottom: 75px;
+}
+
+#paleta #sessao4 .antesedepois .redux {
+  margin-top: 5px;
+}
+
+#paleta #sessao4 .coresdomes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 33px;
+}
+
+#paleta #sessao4 .coresdomes .esq {
+  width: 500px;
+  max-width: 100%;
+}
+
+#paleta #sessao4 .coresdomes .bolas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+  margin-left: 50px;
+  margin-top: 80px;
+}
+
+#paleta #sessao4 .coresdomes .bolas span {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+}
+
+#paleta #sessao4 .coresdomes .bolas span:nth-child(1) {
+  background-color: #FFF;
+}
+
+#paleta #sessao4 .coresdomes .bolas span:nth-child(2) {
+  background-color: var(--principal);
+}
+
+#paleta #sessao4 .coresdomes .bolas span:nth-child(3) {
+  background-color: var(--terciaria);
+}
+
+#paleta #sessao4 .coresdomes .dir .txtcores12 {
+  margin: 15px 0 30px 0;
+  max-width: 302px;
+}
+
+#paleta #sessao4 .coresdomes .dir .linha {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: red;
-  border-radius: var(--radius);
-  width: 211px;
-  height: 131px;
-  font-size: 75px;
-  margin-bottom: 65px;
+  gap: 35px;
+  margin-bottom: 60px;
 }
 
-#paleta #sessao4 .blocos .col .bloco:last-child {
+#paleta #sessao4 .coresdomes .dir .linha:last-of-type {
   margin-bottom: 0;
 }
 
-#paleta #sessao4 .blocos .col:nth-of-type(1) .bloco {
-  background-color: var(--secundaria);
+#paleta #sessao4 .coresdomes .dir .linha span {
+  display: block;
+  background-color: #FFF;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 18px solid var(--principal);
 }
 
-#paleta #sessao4 .blocos .col:nth-of-type(1) .bloco:first-child {
-  color: var(--terciaria);
+#paleta #sessao4 .coresdomes .dir .linha > div {
+  position: relative;
 }
 
-#paleta #sessao4 .blocos .col:nth-of-type(1) .bloco:last-child {
-  color: #fff;
+#paleta #sessao4 .coresdomes .dir .linha img {
+  margin: 5px auto 0 auto;
+  position: absolute;
+  left: 50%;
+  margin-left: -7.5px;
 }
 
-#paleta #sessao4 .blocos .col:nth-of-type(2) .bloco {
+#paleta #sessao4 .coresdomes .dir .linha p {
+  font-size: 10px;
+  font-weight: bold;
+  margin-left: -20px;
+}
+
+#paleta #sessao4 .coresdomes .dir .linha.linha1 div span {
+  border-color: #FDB35D;
+}
+
+#paleta #sessao4 .coresdomes .dir .linha.linha1 div:nth-child(1) span {
+  background-color: var(--principal);
+}
+
+#paleta #sessao4 .coresdomes .dir .linha.linha1 div:nth-child(2) span {
   background-color: var(--terciaria);
 }
 
-#paleta #sessao4 .blocos .col:nth-of-type(2) .bloco:first-child {
-  color: var(--secundaria);
+#paleta #sessao4 .coresdomes .dir .linha.linha1 div:nth-child(3) span {
+  background-color: #FFF;
 }
 
-#paleta #sessao4 .blocos .col:nth-of-type(2) .bloco:last-child {
-  color: var(--primaria);
+#paleta #sessao4 .coresdomes .dir .linha.linha2 div span {
+  border-color: #60BAF3;
 }
 
-#paleta #sessao4 .blocos .col:nth-of-type(3) .bloco {
-  background-color: #fff;
-  border: 1px solid var(--principal);
+#paleta #sessao4 .coresdomes .dir .linha.linha2 div:nth-child(1) span {
+  background-color: var(--principal);
 }
 
-#paleta #sessao4 .blocos .col:nth-of-type(3) .bloco:first-child {
-  color: var(--secundaria);
+#paleta #sessao4 .coresdomes .dir .linha.linha2 div:nth-child(2) span {
+  background-color: var(--terciaria);
 }
 
-#paleta #sessao4 .blocos .col:nth-of-type(3) .bloco:last-child {
-  color: var(--primaria);
+#paleta #sessao4 .coresdomes .dir .linha.linha2 div:nth-child(3) span {
+  background-color: #FFF;
+}
+
+#paleta #sessao4 .coresdomes .dir .linha.linha3 div span {
+  border-color: #5DD274;
+}
+
+#paleta #sessao4 .coresdomes .dir .linha.linha3 div:nth-child(1) span {
+  background-color: var(--principal);
+}
+
+#paleta #sessao4 .coresdomes .dir .linha.linha3 div:nth-child(2) span {
+  background-color: var(--terciaria);
+}
+
+#paleta #sessao4 .coresdomes .dir .linha.linha3 div:nth-child(3) span {
+  background-color: #FFF;
+}
+
+#paleta #sessao4 .coresdomes .dir .linha.linha4 div span {
+  border-color: #FC7492;
+}
+
+#paleta #sessao4 .coresdomes .dir .linha.linha4 div:nth-child(1) span {
+  background-color: var(--principal);
+}
+
+#paleta #sessao4 .coresdomes .dir .linha.linha4 div:nth-child(2) span {
+  background-color: var(--terciaria);
+}
+
+#paleta #sessao4 .coresdomes .dir .linha.linha4 div:nth-child(3) span {
+  background-color: #FFF;
 }
 
 /* Pagina Paleta Desktop FIM */
 /* Pagina Tipografia Desktop INICIO */
-#tipografia #sessao1 > article {
-  min-height: 660px;
+#tipografia .detalhe {
+  padding-top: 55px;
+  padding-bottom: 40px;
 }
 
-#tipografia .modulo-abas .nav_tabs .content {
-  height: initial;
+#tipografia #sessao1 {
+  padding-bottom: 0;
+  background-color: var(--principal);
+  font-family: 'Work Sans';
 }
 
-#tipografia .modulo-abas .nav_tabs .nav li {
-  padding-right: 65px;
+#tipografia #sessao1 .destaque {
+  color: var(--terciaria);
 }
 
-#tipografia .modulo-abas .bloco-texto:not(:first-child) {
-  margin-top: 35px;
+#tipografia #sessao1 .pos-titulo {
+  margin-bottom: 40px;
 }
 
-#tipografia .modulo-abas .bloco-texto p.txt--padrao12 {
-  max-width: 283px;
+#tipografia #sessao1 p {
+  color: #fff;
 }
 
-#tipografia .modulo-abas .onde-usar {
-  margin-top: 23px;
+#tipografia #sessao1 p.thin {
+  font-weight: 100;
 }
 
-#tipografia .modulo-abas .onde-usar p {
-  margin-bottom: 16px;
+#tipografia #sessao1 p.extralight {
+  font-weight: 200;
 }
 
-#tipografia .modulo-abas .onde-usar .icones {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+#tipografia #sessao1 p.light {
+  font-weight: 300;
 }
 
-#tipografia .modulo-abas .onde-usar .icones img {
-  margin-right: 13px;
+#tipografia #sessao1 p.regular {
+  font-weight: 400;
 }
 
-#tipografia .modulo-abas .tab .dir .cima .grid--3linhas {
-  height: 95px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+#tipografia #sessao1 p.medium {
+  font-weight: 500;
 }
 
-#tipografia .modulo-abas .tab .dir .cima .grid--3linhas .grid--2colunas-auto {
-  -ms-grid-columns: 120px auto;
-      grid-template-columns: 120px auto;
+#tipografia #sessao1 p.semibold {
+  font-weight: 600;
 }
 
-#tipografia .modulo-abas .tab .dir .cima .grid--3linhas .grid--2colunas-auto > div {
-  font-size: 0.875rem;
+#tipografia #sessao1 p.bold {
+  font-weight: 700;
 }
 
-#tipografia .modulo-abas .tab .dir .cima .fonte-exemplo {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+#tipografia #sessao1 p.extrabold {
+  font-weight: 800;
 }
 
-#tipografia .modulo-abas .tab .dir .cima .fonte-exemplo div {
-  margin: 0 15px;
-  font-size: 1.8125rem;
+#tipografia #sessao1 p.black {
+  font-weight: 900;
 }
 
-#tipografia .modulo-abas .tab .dir .cima .separador-fontes:before {
-  content: url("../img/Grupo 4801.svg");
+#tipografia #sessao1 p.destaque {
+  margin-bottom: 10px;
 }
 
-#tipografia .modulo-abas .tab .dir .baixo .alfabeto {
+#tipografia #sessao1 p.italic {
+  font-style: italic;
+}
+
+#tipografia #sessao1 a {
+  color: #FFF;
+}
+
+#tipografia #sessao1 a.semibold {
+  font-weight: 600;
+}
+
+#tipografia #sessao1 article > p.txt--padrao40 {
+  font-weight: 600;
+}
+
+#tipografia #sessao1 span {
+  text-transform: uppercase;
+}
+
+#tipografia #sessao1 span.strong {
+  font-weight: bold;
+}
+
+#tipografia #sessao1 span.italic {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#tipografia #sessao1 .linhastxt {
+  max-width: 920px;
+}
+
+#tipografia #sessao1 .linhastxt .linhaswrapper {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-bottom: 1px solid var(--terciaria);
+}
+
+#tipografia #sessao1 .linhastxt .linhaswrapper > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+  font-size: 22px;
+}
+
+#tipografia #sessao1 .linhastxt .linhaswrapper > div.linha2 {
+  font-style: italic;
+}
+
+#tipografia #sessao1 .pesosutilizados {
+  max-width: 920px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-bottom: 1px solid var(--terciaria);
+}
+
+#tipografia #sessao1 .pesosutilizados .blocos {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px 100px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#tipografia #sessao1 .pesosutilizados .blocos .bloco {
+  width: 231px;
+  max-width: 100%;
+}
+
+#tipografia #sessao1 .pesosutilizados .blocos .bloco p {
+  font-size: 13px;
+  line-height: 17px;
+  word-wrap: break-word;
+}
+
+#tipografia #sessao1 .s1 {
+  padding-bottom: 75px;
+}
+
+#tipografia #sessao1 .tipografia-arial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #FFF;
+}
+
+#tipografia #sessao1 .tipografia-arial p {
+  color: var(--principal);
+  font-family: 'Roboto';
+}
+
+#tipografia #sessao1 .tipografia-arial .txt--padrao40 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#tipografia #sessao1 .tipografia-arial .esq {
+  width: 363px;
+  margin-left: 50px;
+  padding-top: 85px;
+  padding-right: 66px;
+}
+
+#tipografia #sessao1 .tipografia-arial .dir {
+  width: 100%;
+  background-color: var(--bgcinza);
+  padding-top: 85px;
+  padding-left: 110px;
+  padding-bottom: 90px;
+}
+
+#tipografia #sessao1 .tipografia-arial .dir p {
+  font-family: 'Arial';
+}
+
+#tipografia #sessao1 .tipografia-arial .dir p.title {
+  font-size: 32px;
+}
+
+#tipografia #sessao1 .tipografia-arial .dir p.subtitle {
+  font-size: 16px;
+}
+
+#tipografia #sessao1 .tipografia-arial .dir .blocos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px 63px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-top: 40px;
-  font-size: 18px;
 }
 
-#tipografia .modulo-abas .tab .dir .baixo .alfabeto div {
-  margin: 15px 0;
-  letter-spacing: 31px;
-}
-
-#tipografia .modulo-abas .tab .dir .baixo .alfabeto div:nth-of-type(1) {
-  letter-spacing: 25.3px;
-}
-
-#tipografia .modulo-abas .tab .dir .baixo .alfabeto div:nth-of-type(3) {
-  letter-spacing: 22.8px;
-  text-transform: uppercase;
-}
-
-#tipografia .modulo-abas .tab .dir .baixo .alfabeto div:nth-of-type(4) {
-  letter-spacing: 28.2px;
-  text-transform: uppercase;
-}
-
-#tipografia .modulo-abas .tab .dir .baixo .alfabeto div:nth-of-type(5) {
-  letter-spacing: 22px;
-}
-
-#tipografia .modulo-abas .tab:nth-of-type(2) .baixo .alfabeto div:nth-of-type(3) {
-  letter-spacing: 23.7px;
-  text-transform: uppercase;
-}
-
-#tipografia .modulo-abas .tab:nth-of-type(2) .baixo .alfabeto div:nth-of-type(4) {
-  letter-spacing: 29px;
-  text-transform: uppercase;
-}
-
-#tipografia .modulo-abas .tab:nth-of-type(2) .baixo .alfabeto div:nth-of-type(5) {
-  letter-spacing: 23.2px;
-}
-
-#tipografia .modulo-abas .tab:nth-of-type(3) .fonte-exemplo div:nth-of-type(1) {
-  font-weight: normal;
-}
-
-#tipografia .modulo-abas .tab:nth-of-type(3) .fonte-exemplo div:nth-of-type(2) {
-  font-weight: bold;
-}
-
-#tipografia .modulo-abas .tab:nth-of-type(3) .fonte-exemplo.italico div:nth-of-type(1) {
-  font-weight: normal;
-  font-style: italic;
-}
-
-#tipografia .modulo-abas .tab:nth-of-type(3) .fonte-exemplo.italico div:nth-of-type(2) {
-  font-weight: bold;
-  font-style: italic;
-}
-
-#tipografia .modulo-abas .tab:nth-of-type(3) .baixo .alfabeto div:nth-of-type(3) {
-  letter-spacing: 22.2px;
-  text-transform: uppercase;
-}
-
-#tipografia .modulo-abas .tab:nth-of-type(3) .baixo .alfabeto div:nth-of-type(4) {
-  letter-spacing: 27.1px;
-  text-transform: uppercase;
-}
-
-#tipografia .modulo-abas .tab:nth-of-type(3) .baixo .alfabeto div:nth-of-type(5) {
-  letter-spacing: 22.8px;
-}
-
-#tipografia .modulo-abas .tab .ideia {
-  margin-left: 0;
+#tipografia #sessao1 .tipografia-arial .dir .blocos .bloco {
+  width: 226px;
 }
 
 #tipografia #sessao2 {
-  background-color: var(--secundaria);
-  color: #fff;
+  background-color: #fff;
+  color: var(--principal);
 }
 
 #tipografia #sessao2 .pos-titulo {
   max-width: 315px;
-}
-
-#tipografia #sessao2 p {
-  color: #fff;
 }
 
 #tipografia #sessao2 .txt--padrao20 {
@@ -2547,8 +2753,24 @@ header h1 {
   margin-top: 40px;
 }
 
+#tipografia #sessao2 .composicao-wrapper .wrapper-box:nth-of-type(1) {
+  margin-top: 100px;
+}
+
 #tipografia #sessao2 .composicao-wrapper .wrapper-box:nth-of-type(2) {
+  margin-top: 40px;
+}
+
+#tipografia #sessao2 .composicao-wrapper .wrapper-box:nth-of-type(3) {
   margin-top: 10px;
+}
+
+#tipografia #sessao2 .composicao-wrapper .wrapper-box:nth-of-type(4) {
+  margin-top: 24px;
+}
+
+#tipografia #sessao2 .composicao-wrapper .wrapper-box:nth-of-type(5) {
+  margin-top: 22px;
 }
 
 #tipografia #sessao2 .composicao-wrapper .wrapper-box .esq {
@@ -2566,45 +2788,42 @@ header h1 {
 }
 
 #tipografia #sessao2 .composicao-wrapper .wrapper-box .dir {
-  border-left: 1px solid;
+  border-left: 2px solid var(--terciaria);
   padding-left: 40px;
 }
 
+#tipografia #sessao2 .composicao-wrapper .wrapper-box .dir p {
+  font-family: 'Work Sans';
+}
+
 #tipografia #sessao2 .composicao-wrapper .wrapper-box:nth-of-type(1) .dir p {
-  font-size: 4.625rem;
-  line-height: 4.5625rem;
-  max-width: 485px;
-  letter-spacing: -1px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 4px;
 }
 
 #tipografia #sessao2 .composicao-wrapper .wrapper-box:nth-of-type(2) .dir p {
-  font-size: 1.75rem;
+  font-size: 60px;
+  line-height: 60px;
+  max-width: 419px;
+  font-weight: 300;
 }
 
 #tipografia #sessao2 .composicao-wrapper .wrapper-box:nth-of-type(3) .dir p {
-  max-width: 282px;
-}
-
-#tipografia #sessao2 .composicao-wrapper .wrapper-box:nth-of-type(3) .dir p:nth-of-type(1) {
-  font-size: 1.1875rem;
-  line-height: 1.375rem;
-  margin-bottom: 28px;
-}
-
-#tipografia #sessao2 .composicao-wrapper .wrapper-box:nth-of-type(3) .dir p:nth-of-type(2) {
-  font-size: 0.8125rem;
-  line-height: 1.375rem;
-}
-
-#tipografia #sessao2 .composicao-wrapper .wrapper-box:nth-of-type(3) .dir p:nth-of-type(3) {
-  font-size: 0.9375rem;
-  line-height: 1.375rem;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 #tipografia #sessao2 .composicao-wrapper .wrapper-box:nth-of-type(4) .dir p {
-  font-size: 0.9375rem;
-  line-height: 1.1875rem;
-  max-width: 310px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  max-width: 305px;
+}
+
+#tipografia #sessao2 .composicao-wrapper .wrapper-box:nth-of-type(5) .dir p {
+  font-size: 20px;
+  font-weight: 600;
 }
 
 #tipografia #sessao2 .ideia {
@@ -2621,8 +2840,15 @@ header h1 {
 }
 
 #tipografia #sessao3 .wrapper-acessibilidade {
-  -ms-grid-columns: 375px auto;
-      grid-template-columns: 375px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 10px 60px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   margin-top: 75px;
 }
 
@@ -2656,99 +2882,212 @@ header h1 {
   margin-top: 34px;
 }
 
-#tipografia #sessao3 .wrapper-acessibilidade .dir .wrapper-acessibilidade-blocos {
+#tipografia #sessao3 .wrapper-acessibilidade .bloco {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 100%;
+}
+
+#tipografia #sessao3 .wrapper-acessibilidade .bloco .esq {
+  margin-right: 23px;
+  text-align: right;
   line-height: normal;
 }
 
-#tipografia #sessao3 .wrapper-acessibilidade .dir .wrapper-acessibilidade-blocos:not(:first-of-type) {
-  margin-top: 90px;
+#tipografia #sessao3 .wrapper-acessibilidade .bloco .esq .AAA {
+  font-size: 20px;
+  font-weight: 600;
 }
 
-#tipografia #sessao3 .wrapper-acessibilidade .dir .wrapper-acessibilidade-blocos .cima {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 90px auto;
-      grid-template-columns: 90px auto;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 8px;
+#tipografia #sessao3 .wrapper-acessibilidade .bloco .esq .AA {
+  font-size: 12px;
 }
 
-#tipografia #sessao3 .wrapper-acessibilidade .dir .wrapper-acessibilidade-blocos .baixo {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 90px auto;
-      grid-template-columns: 90px auto;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+#tipografia #sessao3 .wrapper-acessibilidade .bloco .esq .dashed {
+  text-decoration: line-through;
+  color: red;
 }
 
-#tipografia #sessao3 .wrapper-acessibilidade .dir .wrapper-acessibilidade-blocos .esq p {
-  text-align: right;
-  padding-right: 40px;
-}
-
-#tipografia #sessao3 .wrapper-acessibilidade .dir .wrapper-acessibilidade-blocos .esq p:first-of-type {
-  font-size: 1.375rem;
-  margin-bottom: 5px;
-}
-
-#tipografia #sessao3 .wrapper-acessibilidade .dir .wrapper-acessibilidade-blocos .esq p:last-of-type {
-  font-size: 0.8125rem;
-}
-
-#tipografia #sessao3 .wrapper-acessibilidade .dir .wrapper-acessibilidade-blocos .dir .bloco {
-  width: 348px;
-  height: 82px;
-  display: -ms-grid;
-  display: grid;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+#tipografia #sessao3 .wrapper-acessibilidade .bloco .dir {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-left: 27px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  width: 350px;
+  height: 80px;
+  border-radius: 4px;
+  background-color: var(--principal);
 }
 
-#tipografia #sessao3 .wrapper-acessibilidade .dir .wrapper-acessibilidade-blocos .dir .bloco p:first-of-type {
-  font-size: 1.375rem;
-  margin-bottom: 5px;
-}
-
-#tipografia #sessao3 .wrapper-acessibilidade .dir .wrapper-acessibilidade-blocos .dir .bloco p:last-of-type {
-  font-size: 0.875rem;
-}
-
-#tipografia #sessao3 .wrapper-acessibilidade .dir .wrapper-acessibilidade-blocos:nth-of-type(1) .bloco {
-  background-color: #fff;
-}
-
-#tipografia #sessao3 .wrapper-acessibilidade .dir .wrapper-acessibilidade-blocos:nth-of-type(1) .cima .dir p {
-  color: var(--secundaria);
-}
-
-#tipografia #sessao3 .wrapper-acessibilidade .dir .wrapper-acessibilidade-blocos:nth-of-type(2) .bloco {
-  background-color: var(--secundaria);
-}
-
-#tipografia #sessao3 .wrapper-acessibilidade .dir .wrapper-acessibilidade-blocos:nth-of-type(2) .cima .dir p {
+#tipografia #sessao3 .wrapper-acessibilidade .bloco .dir p {
   color: #fff;
 }
 
-#tipografia #sessao3 .wrapper-acessibilidade .dir .wrapper-acessibilidade-blocos:nth-of-type(2) .baixo .dir p {
+#tipografia #sessao3 .wrapper-acessibilidade .bloco .dir p.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#tipografia #sessao3 .wrapper-acessibilidade .bloco:nth-of-type(2) .dir {
+  background-color: #FFC9D5;
+}
+
+#tipografia #sessao3 .wrapper-acessibilidade .bloco:nth-of-type(2) .dir p {
+  color: var(--principal);
+}
+
+#tipografia #sessao3 .wrapper-acessibilidade .bloco:nth-of-type(3) .dir p {
   color: var(--terciaria);
 }
 
-#tipografia #sessao3 .wrapper-acessibilidade .dir .wrapper-acessibilidade-blocos:nth-of-type(3) .bloco {
-  background-color: var(--terciaria);
+#tipografia #sessao3 .wrapper-acessibilidade .bloco:nth-of-type(4) .dir {
+  background-color: #FFE4C7;
 }
 
-#tipografia #sessao3 .wrapper-acessibilidade .dir .wrapper-acessibilidade-blocos:nth-of-type(3) .cima .dir p {
-  color: var(--secundaria);
+#tipografia #sessao3 .wrapper-acessibilidade .bloco:nth-of-type(4) .dir p {
+  color: var(--principal);
+}
+
+#tipografia #sessao3 .wrapper-acessibilidade .bloco:nth-of-type(5) .dir {
+  background-color: #FFF;
+}
+
+#tipografia #sessao3 .wrapper-acessibilidade .bloco:nth-of-type(5) .dir p {
+  color: var(--principal);
+}
+
+#tipografia #sessao3 .wrapper-acessibilidade .bloco:nth-of-type(6) .dir {
+  background-color: #E8DDFF;
+}
+
+#tipografia #sessao3 .wrapper-acessibilidade .bloco:nth-of-type(6) .dir p {
+  color: var(--principal);
+}
+
+#tipografia #sessao3 .wrapper-acessibilidade .bloco:nth-of-type(7) .dir {
+  background-color: #FFF;
+}
+
+#tipografia #sessao3 .wrapper-acessibilidade .bloco:nth-of-type(7) .dir p {
+  color: #EE5A7B;
+}
+
+#tipografia #sessao3 .wrapper-acessibilidade .bloco:nth-of-type(8) .dir {
+  background-color: var(--principal);
+}
+
+#tipografia #sessao3 .wrapper-acessibilidade .bloco:nth-of-type(8) .dir p {
+  color: #FFC9D5;
+}
+
+#tipografia #sessao3 .wrapper-acessibilidade .bloco:nth-of-type(9) .dir {
+  background-color: #FFF;
+}
+
+#tipografia #sessao3 .wrapper-acessibilidade .bloco:nth-of-type(9) .dir p {
+  color: #E3740C;
+}
+
+#tipografia #sessao3 .wrapper-acessibilidade .bloco:nth-of-type(10) .dir {
+  background-color: var(--principal);
+}
+
+#tipografia #sessao3 .wrapper-acessibilidade .bloco:nth-of-type(10) .dir p {
+  color: #FFB157;
+}
+
+#tipografia #sessao3 .wrapper-acessibilidade .bloco:nth-of-type(11) .dir {
+  background-color: #FFF;
+}
+
+#tipografia #sessao3 .wrapper-acessibilidade .bloco:nth-of-type(11) .dir p {
+  color: #7846D4;
+}
+
+#tipografia #sessao3 .wrapper-acessibilidade .bloco:nth-of-type(12) .dir {
+  background-color: var(--principal);
+}
+
+#tipografia #sessao3 .wrapper-acessibilidade .bloco:nth-of-type(12) .dir p {
+  color: #E8DDFF;
+}
+
+#tipografia #sessao3 .legenda-cores {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: -115px;
+  margin-right: 19%;
+}
+
+#tipografia #sessao3 .legenda-cores .dashed {
+  text-decoration: line-through;
+}
+
+#tipografia #sessao3 .legenda-cores .cores {
+  margin-left: 50px;
+}
+
+#tipografia #sessao3 .legenda-cores .cores-wrapper {
+  max-width: 190px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 4px 7px;
+}
+
+#tipografia #sessao3 .legenda-cores .cores-wrapper .cor span {
+  width: 91px;
+  height: 24px;
+  background: var(--principal);
+  display: block;
+}
+
+#tipografia #sessao3 .legenda-cores .cores-wrapper .cor:nth-of-type(1) span {
+  background-color: #EE5A7B;
+}
+
+#tipografia #sessao3 .legenda-cores .cores-wrapper .cor:nth-of-type(2) span {
+  background-color: #FFC9D5;
+}
+
+#tipografia #sessao3 .legenda-cores .cores-wrapper .cor:nth-of-type(3) span {
+  background-color: #E3740C;
+}
+
+#tipografia #sessao3 .legenda-cores .cores-wrapper .cor:nth-of-type(4) span {
+  background-color: #FFE4C7;
+}
+
+#tipografia #sessao3 .legenda-cores .cores-wrapper .cor:nth-of-type(5) span {
+  background-color: #7846D4;
+}
+
+#tipografia #sessao3 .legenda-cores .cores-wrapper .cor:nth-of-type(6) span {
+  background-color: #E8DDFF;
+}
+
+#tipografia #sessao4 article {
+  padding-bottom: 60px;
 }
 
 #tipografia #download {
@@ -2756,6 +3095,126 @@ header h1 {
 }
 
 /* Pagina Tipografia Desktop FIM */
+/* Pagina Iconografia Desktop INICIO */
+#iconografia #sessao1 {
+  background-color: var(--terciaria);
+}
+
+#iconografia #sessao1 img {
+  margin-left: 75px;
+}
+
+#iconografia #sessao2 .pos-titulo {
+  max-width: 440px;
+}
+
+#iconografia #sessao2 .boxes-boas {
+  padding-top: 65px;
+  padding-bottom: 85px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 10px;
+  margin-left: 50px;
+}
+
+#iconografia #sessao3 {
+  background-color: var(--bgcinza);
+}
+
+#iconografia #sessao3 .wrapper-fundos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+#iconografia #sessao4 {
+  padding-bottom: 30px;
+}
+
+#iconografia #sessao4 .wrapper-evitar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  margin-top: 65px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+/* Pagina Iconografia Desktop FIM */
+/* Pagina Ilustracao Desktop INICIO */
+#ilustracao #sessao1 p {
+  font-size: 15px;
+  margin-left: 50px;
+}
+
+#ilustracao #sessao1 p.debaixo {
+  margin-top: -60px;
+}
+
+#ilustracao #sessao1 .baixo {
+  gap: 15px;
+  background-color: var(--bgcinza);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 100px 0 85px 50px;
+  margin-top: 80px;
+}
+
+#ilustracao #sessao1 .baixo .flexx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#ilustracao #sessao1 .esq, #ilustracao #sessao1 .dir {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+}
+
+#ilustracao #sessao2 .wrapper-customizacao {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 19px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#ilustracao #sessao3 {
+  background-color: var(--bgcinza);
+}
+
+#ilustracao #sessao3 p {
+  font-size: 15px;
+  line-height: normal;
+}
+
+#ilustracao #sessao3 a {
+  color: var(--principal);
+}
+
+/* Pagina Ilustracao Desktop FIM */
 /* Pagina Grafismos Desktop INICIO */
 #grafismos #sessao1 img {
   margin-top: -35px;

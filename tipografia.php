@@ -13,11 +13,8 @@
     </head>    
 
     <body id="tipografia">
-
         <div class="container">
-
             <?php include 'assets/menu.php'; ?>
-
             <main>
                 <header class="topobg">
                     <div class="pelicula"></div>
@@ -25,489 +22,218 @@
                         <h1>Tipografia</h1>
                     </article>
                 </header>
+                
+                <article class="detalhe">
+                    <p class="txt--padrao20"><strong>Work Sans é a fonte para nossos materiais de Marketing.</strong></p>
+                </article>
 
                 <section id="sessao1">
-                    <article>
-                        <p class="txt--padrao40">Nossas fontes</p>
+                    <article class="s1">
+                        <p class="txt--padrao40 destaque">Work Sans</p>
+                        <p class="txt--padrao12 pos-titulo">
+                            De proporção alongada e terminações leves,
+                            sua licença gratuita facilita a distribuição
+                            e uso para nossos colaboradores e fornecedores.
+                        </p>
 
-                        <article>
-                            <div class="modulo-abas">
-        
-                                <div class="nav_tabs">
-                                    <ul class="nav desktopitem">
-                                        <li nav="0" class="active">Fonte institucional</li>
-                                        <li nav="1">Fonte de aplicativo</li>
-                                        <li nav="2">Fonte de sistema</li>
-                                        <div class="slider">
-                                            <div class="slider-bar"></div>
-                                        </div>
-                                    </ul>
-                                    
-                                    <div class="content">
+                        <div class="linhastxt">
+                            <p class="txt--padrao12">
+                                <span class="strong destaque">9 Pesos + </span><span class="italic destaque">itálicos</span>
+                            </p>
+                            <div class="linhaswrapper">
+                                <div class="linha1">
+                                    <p class="thin">Thin</p>
+                                    <p class="extralight">ExtraLight</p>
+                                    <p class="light">Light</p>
+                                    <p class="regular">Regular</p>
+                                    <p class="medium">Medium</p>
+                                    <p class="semibold">Semibold</p>
+                                    <p class="bold">Bold</p>
+                                    <p class="extrabold">ExtraBold</p>
+                                    <p class="black">Black</p>
+                                </div>
+                                <div class="linha2">
+                                    <p class="thin">Thin</p>
+                                    <p class="extralight">ExtraLight</p>
+                                    <p class="light">Light</p>
+                                    <p class="regular">Regular</p>
+                                    <p class="medium">Medium</p>
+                                    <p class="semibold">Semibold</p>
+                                    <p class="bold">Bold</p>
+                                    <p class="extrabold">ExtraBold</p>
+                                    <p class="black">Black</p>
+                                </div>
+                            </div>
+                        </div>
 
-                                        <div class="tab active">
-                                            <div class="grid--2colunas">
-                                                <div class="esq">
-                                                    <div class="bloco-texto">
-                                                        <p class="txt--padrao20 subtitulo mobileitem">Fonte institucional</p>
-                                                        <p class="txt--padrao20">Dona Alt Font</p>
-                                                        <p class="txt--padrao12">
-                                                            Simpática, brazuca e orgânica como nosso logo,
-                                                            a Dona Font é nossa principal fonte de comunicação.
-                                                        </p>
-                                                    </div>
+                        <div class="pesosutilizados">
+                            <p class="txt--padrao12 com-bold destaque">PESOS MAIS UTILIZADOS</p>
+                            <div class="blocos">
+                                <div class="bloco">
+                                    <p class="destaque light">Light</p>
+                                    <p class="light">
+                                        abcdefghijklmnopqrstuvwxyz 
+                                        ABCDEFGHIJKLMNOPQRSTUVWXYZ 
+                                        1234567890&%@#
+                                    </p>
+                                </div>
+                                <div class="bloco">
+                                    <p class="destaque regular">Regular</p>
+                                    <p class="regular">
+                                        abcdefghijklmnopqrstuvwxyz 
+                                        ABCDEFGHIJKLMNOPQRSTUVWXYZ 
+                                        1234567890&%@#
+                                    </p>
+                                </div>
+                                <div class="bloco">
+                                    <p class="destaque medium">Medium</p>
+                                    <p class="medium">
+                                        abcdefghijklmnopqrstuvwxyz 
+                                        ABCDEFGHIJKLMNOPQRSTUVWXYZ 
+                                        1234567890&%@#
+                                    </p>
+                                </div>
+                                <div class="bloco">
+                                    <p class="destaque semibold">SemiBold</p>
+                                    <p class="semibold">
+                                        abcdefghijklmnopqrstuvwxyz 
+                                        ABCDEFGHIJKLMNOPQRSTUVWXYZ 
+                                        1234567890&%@#
+                                    </p>
+                                </div>
+                                <div class="bloco">
+                                    <p class="destaque bold">Bold</p>
+                                    <p class="bold">
+                                        abcdefghijklmnopqrstuvwxyz 
+                                        ABCDEFGHIJKLMNOPQRSTUVWXYZ 
+                                        1234567890&%@#
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="txt--padrao12 com-bold destaque">LICENÇA</p><br>
+                        <p class="txt--padrao12">
+                            Disponível em: <br>
+                            <a class="semibold" href="https://fonts.google.com/specimen/Work+Sans">https://fonts.google.com/specimen/Work+Sans</a>
+                        </p>
+                    </article>
 
-                                                    <div class="bloco-texto">
-                                                        <p class="txt--padrao20">Uso</p>
-                                                        <p class="txt--padrao12">
-                                                            > Impressos e digitais<br>
-                                                            > Sinalização de loja e VM<br>
-                                                            > Comunicação de produtos e ofertas
-                                                        </p>
-                                                    </div>
-
-                                                    <div class="onde-usar">
-                                                        <p class="txt--padrao12 txt--bold">Onde usar?</p>
-                                                        
-                                                        <div class="icones">
-                                                            <img src="<? echo $images ?>onde-usar-pc.svg" alt="">
-                                                            <img src="<? echo $images ?>onde-usar-printer.svg" alt="">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                
-                                                <div class="dir">
-                                                    <div class="cima">
-                                                        <div class="grid--3linhas">
-                                                            <div class="grid--2colunas-auto">
-                                                                <div>Normal</div>
-                                                                <div class="fonte-exemplo">
-                                                                    <div>Aa</div>
-                                                                    <div>Aa</div>
-                                                                    <div>Aa</div>
-                                                                    <div>Aa</div>
-                                                                    <div>Aa</div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="grid--2colunas">
-                                                                <span class="separador-fontes"></span>
-                                                            </div>
-                                                            <div class="grid--2colunas-auto">
-                                                                <div>Itálicos</div>
-                                                                <div class="fonte-exemplo italico">
-                                                                    <div>Aa</div>
-                                                                    <div>Aa</div>
-                                                                    <div>Aa</div>
-                                                                    <div>Aa</div>
-                                                                    <div>Aa</div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="baixo">
-                                                        <div class="alfabeto desktopitem">
-                                                            <div>
-                                                                <p>
-                                                                    abcdefghijklmn
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    opqrstuvwxyz
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    abcdefghijklmn
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    opqrstuvwxyz
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    1234567890&%@#
-                                                                </p>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="alfabeto mobileitem dona">
-                                                            <div>
-                                                                <p>
-                                                                    abcdefghi
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    jklmnopqr
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    stuvwxyz
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    abcdefghi
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    jklmnopqr
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    stuvwxyz
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    1234567890&%@#
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                    </div>                                                
-                                                </div>
-                                            </div>
-
-                                            <div class="ideia">
-                                                <div class="destaque-ideia">
-                                                    <p class="txt--padrao12">Dica: Para aquisição de uso acesse: harbortype.com/fonts<br class="mobileitem">/dona</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="tab">
-                                            <div class="grid--2colunas">
-                                                <div class="esq">
-                                                    <div class="bloco-texto">
-                                                        <p class="txt--padrao20 subtitulo mobileitem">Fonte de aplicativo</p>
-                                                        <p class="txt--padrao20">Open Sans</p>
-                                                        <p class="txt--padrao12">
-                                                            Pra melhor leitura na telinha, usamos
-                                                            a Open Sans como tipografia do nosso app,
-                                                            garantindo leitura até nos menores textos.
-                                                        </p>
-                                                    </div>
-
-                                                    <div class="bloco-texto">
-                                                        <p class="txt--padrao20">Uso</p>
-                                                        <p class="txt--padrao12">
-                                                            > Aplicativo<br>
-                                                            > Softwares
-                                                        </p>
-                                                    </div>
-
-                                                    <div class="onde-usar">
-                                                        <p class="txt--padrao12 txt--bold">Onde usar?</p>
-                                                        
-                                                        <div class="icones">
-                                                            <img src="<? echo $images ?>onde-usar-mobile.svg" alt="">                                                            
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                
-                                                <div class="dir">
-                                                    <div class="cima">
-                                                        <div class="grid--3linhas">
-                                                            <div class="grid--2colunas-auto">
-                                                                <div>Normal</div>
-                                                                <div class="fonte-exemplo">
-                                                                    <div>Aa</div>
-                                                                    <div>Aa</div>
-                                                                    <div>Aa</div>
-                                                                    <div>Aa</div>
-                                                                    <div>Aa</div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="grid--2colunas">
-                                                                <span class="separador-fontes"></span>
-                                                            </div>
-                                                            <div class="grid--2colunas-auto">
-                                                                <div>Itálicos</div>
-                                                                <div class="fonte-exemplo italico">
-                                                                    <div>Aa</div>
-                                                                    <div>Aa</div>
-                                                                    <div>Aa</div>
-                                                                    <div>Aa</div>
-                                                                    <div>Aa</div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="baixo">
-                                                        <div class="alfabeto desktopitem">
-                                                            <div>
-                                                                <p>
-                                                                    abcdefghijklmn
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    opqrstuvwxyz
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    abcdefghijklmn
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    opqrstuvwxyz
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    1234567890&%@#
-                                                                </p>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="alfabeto mobileitem open">
-                                                            <div>
-                                                                <p>
-                                                                    abcdefghi
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    jklmnopqr
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    stuvwxyz
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    abcdefghi
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    jklmnopqr
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    stuvwxyz
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    1234567890&%@#
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                    </div>                                                
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="tab">
-                                            <div class="grid--2colunas">
-                                                <div class="esq">
-                                                    <div class="bloco-texto">
-                                                        <p class="txt--padrao20 subtitulo mobileitem">Fonte de sistema</p>
-                                                        <p class="txt--padrao20">Arial</p>
-                                                        <p class="txt--padrao12">
-                                                            Nativa de diversos sistemas operacionais, seu uso é mais comum em materiais programados em HTML, como assinaturas de e-mail, ou documentos que serão abertos por terceiros, como apresentações.
-                                                        </p>
-                                                    </div>
-
-                                                    <div class="bloco-texto">
-                                                        <p class="txt--padrao20">Uso</p>
-                                                        <p class="txt--padrao12">
-                                                            > Apenas para documentos abertos 
-                                                            por terceiros, como apresentações 
-                                                            e newsletters em html
-                                                        </p>
-                                                    </div>
-
-                                                    <div class="onde-usar">
-                                                        <p class="txt--padrao12 txt--bold">Onde usar?</p>
-                                                        
-                                                        <div class="icones">
-                                                            <img src="<? echo $images ?>onde-usar-pc.svg" alt="">                                                            
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                
-                                                <div class="dir">
-                                                    <div class="cima">
-                                                        <div class="grid--3linhas">
-                                                            <div class="grid--2colunas-auto">
-                                                                <div>Normal</div>
-                                                                <div class="fonte-exemplo">
-                                                                    <div>Aa</div>
-                                                                    <div>Aa</div>                                                                    
-                                                                </div>
-                                                            </div>
-                                                            <div class="grid--2colunas">
-                                                                <span class="separador-fontes"></span>
-                                                            </div>
-                                                            <div class="grid--2colunas-auto">
-                                                                <div>Itálicos</div>
-                                                                <div class="fonte-exemplo italico">
-                                                                    <div>Aa</div>
-                                                                    <div>Aa</div>                                                                    
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="baixo">
-                                                        <div class="alfabeto desktopitem">
-                                                            <div>
-                                                                <p>
-                                                                    abcdefghijklmn
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    opqrstuvwxyz
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    abcdefghijklmn
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    opqrstuvwxyz
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    1234567890&%@#
-                                                                </p>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="alfabeto mobileitem arial">
-                                                            <div>
-                                                                <p>
-                                                                    abcdefghi
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    jklmnopqr
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    stuvwxyz
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    abcdefghi
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    jklmnopqr
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    stuvwxyz
-                                                                </p>
-                                                            </div>
-                                                            <div>
-                                                                <p>
-                                                                    1234567890&%@#
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                    </div>                                                
-                                                </div>                                               
-                                            </div>
-
-                                            <div class="ideia">
-                                                <div class="destaque-ideia">
-                                                    <p class="txt--padrao12">Dica: Quando houver um espaço para banner com imagem, pode usar a Dona Font novamente ;)</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>                                
-                            </div>                            
-                        </article>
-                   </article>
+                    <div class="tipografia-arial">                        
+                        <div class="esq">
+                            <p class="txt--padrao40 proximo">Tipografia de sistema</p>
+                            <p class="txt--padrao12 pos-titulo">
+                                Quando não for possível usar as fontes institucionais, podemos optar pela fonte 
+                                de apoio Arial.
+                                <br><br>
+                                Nativa de diversos sistemas operacionais, 
+                                use em materiais programados em HTML, como assinaturas de e-mail, ou documentos que serão abertos por terceiros, como planilhas e apresentações.
+                            </p>
+                        </div>
+                        <div class="dir">
+                            <p class="title">Arial</p>
+                            <div class="blocos">
+                                <div class="bloco">
+                                    <p class="subtitle regular">Regular</p>
+                                    <p class="txt--padrao12 regular">
+                                        abcdefghijklmnopqrstuvwxyz 
+                                        ABCDEFGHIJKLMNOPQRSTUVWXYZ 
+                                        1234567890&%@#
+                                    </p>
+                                </div>
+                                <div class="bloco">
+                                    <p class="subtitle italic">Italic</p>
+                                    <p class="txt--padrao12 italic">
+                                        abcdefghijklmnopqrstuvwxyz 
+                                        ABCDEFGHIJKLMNOPQRSTUVWXYZ 
+                                        1234567890&%@#
+                                    </p>
+                                </div>
+                                <div class="bloco">
+                                    <p class="subtitle bold">Bold</p>
+                                    <p class="txt--padrao12 bold">
+                                        abcdefghijklmnopqrstuvwxyz 
+                                        ABCDEFGHIJKLMNOPQRSTUVWXYZ 
+                                        1234567890&%@#
+                                    </p>
+                                </div>
+                                <div class="bloco">
+                                    <p class="subtitle bold italic">Bold Italic</p>
+                                    <p class="txt--padrao12 bold italic">
+                                        abcdefghijklmnopqrstuvwxyz 
+                                        ABCDEFGHIJKLMNOPQRSTUVWXYZ 
+                                        1234567890&%@#
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                </section>
 
                <section id="sessao2">
                     <article>
                         <p class="txt--padrao40 proximo">Hierarquia</p>
                         <p class="txt--padrao12 pos-titulo">
-                                Para organizar a informação de um jeito claro sem perder o charme e a simpatia, explore textos em caixa-alta e baixa com os diferentes pesos de fonte.
+                            Uma boa relação de pesos e tamanhos ajuda
+                            a estabelecer as camadas de importância de um conteúdo.
                         </p>
-
-                        <p class="txt--padrao20 destaque">Exemplo de composição</p>
 
                         <div class="composicao-wrapper grid--4linhas-auto">
                             
                             <div class="wrapper-box grid--2colunas">
                                 <div class="esq">                                   
-                                    <p>Título</p>
-                                    <p>Bold</p>                                    
-                                </div>
-                                <div class="dir">                                   
-                                    <p>O mercado do Seu Joca vai pra frente.</p>                                    
-                                </div>
-                            </div>
-
-                            <div class="wrapper-box grid--2colunas">
-                                <div class="esq">                                   
-                                    <p>Subtítulo</p>
-                                    <p>Medium</p>
+                                    <p>Retranca</p>
+                                    <p>Medium 14pt</p>
                                 </div>
                                 <div class="dir">
-                                    <p class="destaque medium">E o Bom Retiro também!</p>
+                                    <p>SOBRE NÓS</p>
+                                </div>
+                            </div>
+                            <div class="wrapper-box grid--2colunas">
+                                <div class="esq">
+                                    <p>Título</p>
+                                    <p>Light ou Regular 60 pt</p>
+                                    <br>
+                                    <p><strong>Destaque do título</strong></p>
+                                    <p>Semibold 60 pt</p>
+                                </div>
+                                <div class="dir">
+                                    <p>Este é um bom título <strong>com destaque</strong></p>
                                 </div>
                             </div>
 
                             <div class="wrapper-box grid--2colunas">
                                 <div class="esq">
-                                    <p>Texto corrido e destaque</p>
-                                    <p>Medium+Bold</p>
+                                    <p>Subtítulo</p>
+                                    <p>SemiBold ou Medium 30 pt</p>
+                                </div>
+                                <div class="dir">
+                                    <p class="medium">E aqui um subtítulo</p>
+                                </div>
+                            </div>
+
+                            <div class="wrapper-box grid--2colunas">
+                                <div class="esq">
+                                    <p>Texto corrido</p>
+                                    <p>Regular ou Medium 20 pt</p>
                                 </div>
                                 <div class="dir">                                   
                                     <p>
-                                        É de bairro em bairro, com preço
-                                        bom e estando lado a lado que
-                                        a gente faz a diferença.
-    
-                                    </p>
-                                    <p class="destaque">
-                                        Quer ir pra frente também?
-                                    </p>
-                                    <p>
-                                        Saiba mais em: suamerce.com.br
-                                    </p>                                    
+                                        Veja como uma boa proporção 
+                                        de tamanhos e pesos dos 
+                                        caracteres deixa a informação 
+                                        organizada e a leitura fluida.    
+                                    </p>                                                              
                                 </div>                            
                             </div>
 
                             <div class="wrapper-box grid--2colunas">
                                 <div class="esq">                                   
-                                    <p>Legendas</p>
-                                    <p>Medium</p>                                    
+                                    <p>Texto destaque</p>
+                                    <p>SemiBold 20 pt</p>
                                 </div>
                                 <div class="dir">
                                     <p>
-                                        Ofertas válidas somente no dia 03/02/2020 até as 23:59 ou enquanto durarem os estoques. Entrega para o dia 04/02/2020. Limite máximo de R$500,00 por produto.
+                                        einstein.com.br
                                     </p>
                                 </div>                
                             </div>
@@ -515,7 +241,7 @@
 
                         <div class="ideia">
                             <div class="destaque-ideia">
-                                <p class="txt--padrao12">Dica: Também combine as cores para diferenciar chamadas.</p>
+                                <p class="txt--padrao12">Dica! Aqui usamos uma relação de proporção de 8 em 8pt.</p>
                             </div>
                         </div>
                     </article>
@@ -523,111 +249,171 @@
 
                <section id="sessao3" class="p70-130">
                     <article>
-                        <p class="txt--padrao40">Acessibilidade</p>
+                        <p class="txt--padrao40 proximo">Acessibilidade</p>
                         <p class="txt--padrao12 pos-titulo">
-                            Para garantir contraste e legibilidade nos meios digitais,
-                            siga as recomendações abaixo:
+                            Para garantir a legibilidade e contraste adequados em ambientes digitais, recomendamos as combinações de cor abaixo de acordo com o tamanho do texto. E lembre-se: evite as combinações que não estão previstas aqui, ok?
                         </p>
 
-                        <div class="wrapper-acessibilidade grid--2colunas-auto">
-                            <div class="esq">
-                                <div class="legenda">
-                                    <p class="txt--bold">Legenda</p>
-
-                                    <p><strong>Título</strong> > 18 px</p>
-                                    <p><strong>Texto corrido</strong> < 12 px</p>
-
-                                    <p><strong>AAA</strong> - Contraste ideal</p>
-                                    <p><strong>AA</strong> - Contraste suficiente</p>
+                        <div class="legenda-cores">
+                            <div class="legenda">
+                                <p class="txt--padrao20 com-bold">Legenda</p>
+                                <p class="txt--padrao12">
+                                    <strong>AAA:</strong> Contraste ideal<br>
+                                    <strong>AA:</strong>  Contraste suficiente<br>
+                                    <span class="dashed"><strong>NR:</strong></span>  Não recomendável<br><br>
+                                    Títulos e destaques: Maior que 18 px<br>
+                                    Textos menores: Menor que 12 px
+                                </p>
+                            </div>
+                            <div class="cores">
+                                <p class="txt--padrao20 com-bold">Cores</p>
+                                <div class="cores-wrapper">
+                                    <div class="cor">
+                                        <p class="txt--padrao12">Rosa-paciente</p>
+                                        <span></span>
+                                    </div>
+                                    <div class="cor">
+                                        <p class="txt--padrao12">Rosa-claro</p>
+                                        <span></span>
+                                    </div>
+                                    <div class="cor">
+                                        <p class="txt--padrao12">Laranja-médico</p>
+                                        <span></span>
+                                    </div>
+                                    <div class="cor">
+                                        <p class="txt--padrao12">Laranja-claro</p>
+                                        <span></span>
+                                    </div>
+                                    <div class="cor">
+                                        <p class="txt--padrao12">Roxo-soluções</p>
+                                        <span></span>
+                                    </div>
+                                    <div class="cor">
+                                        <p class="txt--padrao12">Roxo-claro</p>
+                                        <span></span>
+                                    </div>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="dir">
-                                
-                                <div class="wrapper-acessibilidade-blocos">
-                                    <div class="cima">
-                                        <div class="esq">
-                                            <p>AAA</p>
-                                            <p>AA</p>
-                                        </div>
-                                        <div class="dir">
-                                            <div class="bloco">
-                                                <p>Para títulos em vermelho</p>
-                                                <p>Para textos corridos em vermelho.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="baixo">
-                                        <div class="esq">
-                                            <p>AAA</p>
-                                            <p>AA</p>
-                                        </div>
-                                        <div class="dir">
-                                            <div class="bloco">
-                                                <p>Para títulos em azul</p>
-                                                <p>Para textos corridos em azul.</p>
-                                            </div>
-                                        </div>
-                                    </div>
+                        <div class="wrapper-acessibilidade">
+                            <div class="bloco">
+                                <div class="esq">
+                                    <p class="AAA">AAA</p>
+                                    <p class="AA">AA</p>
                                 </div>
-
-                                <div class="wrapper-acessibilidade-blocos">
-                                    <div class="cima">
-                                        <div class="esq">
-                                            <p>AAA</p>
-                                            <p>AA</p>
-                                        </div>
-                                        <div class="dir">
-                                            <div class="bloco">
-                                                <p>Para títulos em branco</p>
-                                                <p>Para textos corridos em branco.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="baixo">
-                                        <div class="esq">
-                                            <p>AAA</p>
-                                            <p>AA</p>
-                                        </div>
-                                        <div class="dir">
-                                            <div class="bloco">
-                                                <p>Para títulos em amarelo</p>
-                                                <p>Para textos corridos em amarelo.</p>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="dir">
+                                    <p class="title">Para títulos na cor branca.</p>
+                                    <p class="subtitle txt--padrao12">Para textos menores na cor branca.</p>
                                 </div>
-
-                                <div class="wrapper-acessibilidade-blocos">
-                                    <div class="cima">
-                                        <div class="esq">
-                                            <p>AAA</p>
-                                            <p>AA</p>
-                                        </div>
-                                        <div class="dir">
-                                            <div class="bloco">
-                                                <p>Para títulos em vermelho</p>
-                                                <p>Para textos corridos em vermelho.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="baixo">
-                                        <div class="esq">
-                                            <p>AAA</p>
-                                            <p>AA</p>
-                                        </div>
-                                        <div class="dir">
-                                            <div class="bloco">
-                                                <p>Para títulos em azul</p>
-                                                <p>Para textos corridos em azul.</p>
-                                            </div>
-                                        </div>
-                                    </div>
+                            </div>
+                            <div class="bloco">
+                                <div class="esq">
+                                    <p class="AAA">AAA</p>
+                                    <p class="AA">AA</p>
                                 </div>
-
+                                <div class="dir">
+                                    <p class="title">Para títulos na cor azul.</p>
+                                    <p class="subtitle txt--padrao12">Para textos menores na cor azul.</p>
+                                </div>
+                            </div>
+                            <div class="bloco">
+                                <div class="esq">
+                                    <p class="AAA">AAA</p>
+                                    <p class="AA">AA</p>
+                                </div>
+                                <div class="dir">
+                                    <p class="title">Para títulos na cor turquesa.</p>
+                                    <p class="subtitle txt--padrao12">Para textos menores na cor turquesa.</p>
+                                </div>
+                            </div>
+                            <div class="bloco">
+                                <div class="esq">
+                                    <p class="AAA">AAA</p>
+                                    <p class="AA">AA</p>
+                                </div>
+                                <div class="dir">
+                                    <p class="title">Para títulos na cor azul.</p>
+                                    <p class="subtitle txt--padrao12">Para textos menores na cor azul.</p>
+                                </div>
+                            </div>
+                            <div class="bloco">
+                                <div class="esq">
+                                    <p class="AAA">AAA</p>
+                                    <p class="AA">AA</p>
+                                </div>
+                                <div class="dir">
+                                    <p class="title">Para títulos na cor azul.</p>
+                                    <p class="subtitle txt--padrao12">Para textos menores na cor azul.</p>
+                                </div>
+                            </div>
+                            <div class="bloco">
+                                <div class="esq">
+                                    <p class="AAA">AAA</p>
+                                    <p class="AA">AA</p>
+                                </div>
+                                <div class="dir">
+                                    <p class="title">Para títulos na cor azul.</p>
+                                    <p class="subtitle txt--padrao12">Para textos menores na cor azul.</p>
+                                </div>
+                            </div>
+                            <div class="bloco">
+                                <div class="esq">
+                                    <p class="AAA">AAA</p>
+                                    <p class="AA dashed">NR</p>
+                                </div>
+                                <div class="dir">
+                                    <p class="title">Apenas para títulos na cor rosa.</p>
+                                </div>
+                            </div>
+                            <div class="bloco">
+                                <div class="esq">
+                                    <p class="AAA">AAA</p>
+                                    <p class="AA">AA</p>
+                                </div>
+                                <div class="dir">
+                                    <p class="title">Para títulos na cor rosa-claro.</p>
+                                    <p class="subtitle txt--padrao12">Para textos menores na cor rosa-claro.</p>
+                                </div>
+                            </div>
+                            <div class="bloco">
+                                <div class="esq">
+                                    <p class="AAA">AAA</p>
+                                    <p class="AA dashed">NR</p>
+                                </div>
+                                <div class="dir">
+                                    <p class="title">Apenas para títulos na cor laranja.</p>
+                                </div>
+                            </div>
+                            <div class="bloco">
+                                <div class="esq">
+                                    <p class="AAA">AAA</p>
+                                    <p class="AA">AA</p>
+                                </div>
+                                <div class="dir">
+                                    <p class="title">Para títulos na cor laranja.</p>
+                                    <p class="subtitle txt--padrao12">Para textos menores na cor laranja.</p>
+                                </div>
+                            </div>
+                            <div class="bloco">
+                                <div class="esq">
+                                    <p class="AAA">AAA</p>
+                                    <p class="AA">AA</p>
+                                </div>
+                                <div class="dir">
+                                    <p class="title">Para títulos na cor roxa.</p>
+                                    <p class="subtitle txt--padrao12">Para textos menores na cor roxa.</p>
+                                </div>
+                            </div>
+                            <div class="bloco">
+                                <div class="esq">
+                                    <p class="AAA">AAA</p>
+                                    <p class="AA">AA</p>
+                                </div>
+                                <div class="dir">
+                                    <p class="title">Para títulos na cor roxo-claro.</p>
+                                    <p class="subtitle txt--padrao12">Para textos menores na cor roxo-claro.</p>
+                                </div>
                             </div>
                         </div>
                     </article>
@@ -638,9 +424,10 @@
                         <p class="txt--padrao40">Para se inspirar</p>
 
                         <div class="wrapper slick">
-                            <img src="<? echo $images ?>/pranchas/Posters01.png" alt="">
-                            <img src="<? echo $images ?>/pranchas/Saquinho.png" alt="">
-                            <img src="<? echo $images ?>/pranchas/Enrolado.png" alt="">
+                            <img src="<? echo $images ?>pranchas/imunizacao.png" alt="">
+                            <img src="<? echo $images ?>pranchas/caxumba.png" alt="">
+                            <img src="<? echo $images ?>pranchas/todasassolucoes.png" alt="">
+                            <img src="<? echo $images ?>pranchas/predicta.png" alt="">
                         </div>
                     </article>
                </section>
