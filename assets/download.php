@@ -120,19 +120,17 @@ if ( $paginaAtual == 'Iconografia' ) {
 
 if ( $paginaAtual == 'Grafismos' ) {
     
-    $logotipoTitulo_01 = "";
-    $logotipoLink_01 = $download. "grafismos/AF_Merce_Grafismos.zip";
-    $logotipoTexto_01 = "AF_Merce_Grafismos.zip";
+    $logotipoTitulo_01 = "Em imagem";
+    $logotipoLink_01 = $download. "_Grafismos/AF_HIAE_Grafismos_RGB_PNG.zip";
+    $logotipoTexto_01 = "AF_HIAE_Grafismos_RGB_PNG.zip";
+    
+    $logotipoTitulo_02 = "Em vetor";
+    $logotipoLink_02 = $download. "_Grafismos/AF_HIAE_Grafismos_RGB_Vetor.zip";
+    $logotipoTexto_02 = "AF_HIAE_Grafismos_RGB_Vetor";   
 
     echo'
         <section id="download">
             <article>
-                <div class="compartilhar desktopitem">
-                    <a href=" '.$compartilhar.' " class="share">
-                        <p>Compartilhar sessão</p>
-                    </a>
-                </div>
-
                 <p class="txt--padrao40 txt--bold">Download</p>
                 
                 <div class="grid--2colunas">
@@ -140,6 +138,13 @@ if ( $paginaAtual == 'Grafismos' ) {
                         <div>
                             <p class="txt--padrao20">'.$logotipoTitulo_01.'</p>
                             <a href="'.$logotipoLink_01.'">'.$logotipoTexto_01.'</a>
+                        </div>
+                    </div>
+                
+                    <div class="dir">
+                        <div>
+                            <p class="txt--padrao20">'.$logotipoTitulo_02.'</p>
+                            <a href="'.$logotipoLink_02.'">'.$logotipoTexto_02.'</a>
                         </div>
                     </div>
                 </div>

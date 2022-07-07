@@ -13,11 +13,8 @@
     </head>    
 
     <body id="grafismos">
-
         <div class="container">
-
             <?php include 'assets/menu.php'; ?>
-
             <main>
                 <header class="topobg">
                     <div class="pelicula"></div>
@@ -26,157 +23,195 @@
                     </article>
                 </header>
 
-                <section id="sessao1" class="p70-65">
+                <section id="sessao1">
                     <article>
-                        <p class="txt--padrao40">Inspiração</p>
+                        <p class="txt--padrao40 proximo">Inspiração</p>
                         <p class="txt--padrao12 pos-titulo">
-                            São inspirados nas curvas do acento e são pau pra toda obra.
+                            Ultrapassamos barreiras para levar a medicina 
+                            além do hospital e do nosso tempo.
                         </p>
-                        <img class="desktopitem" src="<? echo $images ?>/grafismos/desk/Inspiracao/Grupo 5604.png" alt="">
+                        <div class="wrapper-inspiracao">
+                            <div class="box">
+                                <img class="redux" src="<? echo $images ?>grafismos/1-Inspiracao/1.png" alt="">
+                            </div>
+                            <div class="box">
+                                <img class="redux" src="<? echo $images ?>grafismos/1-Inspiracao/Grupo 7597@2x.png" alt="">
+                            </div>
+                            <div class="box">
+                                <img class="redux" src="<? echo $images ?>grafismos/1-Inspiracao/2.png" alt="">
+                            </div>
+                            <div class="box">
+                                <img class="redux" src="<? echo $images ?>grafismos/1-Inspiracao/Grupo 7597@2x.png" alt="">
+                            </div>
+                            <div class="box">
+                                <img class="redux" src="<? echo $images ?>grafismos/1-Inspiracao/3.png" alt="">
+                            </div>
+                            <div class="box">
+                                <img class="redux" src="<? echo $images ?>grafismos/1-Inspiracao/Grupo 7597@2x.png" alt="">
+                            </div>
+                            <div class="box">
+                                <img class="redux" src="<? echo $images ?>grafismos/1-Inspiracao/4.png" alt="">
+                            </div>
+                        </div>
                    </article>
-                   <img class="mobileitem" src="<? echo $images ?>/grafismos/mob/Inspiracao/Grupo de mascara 70.png" alt="">
                </section>
 
                <section id="sessao2">
                    <article>
-                       <p class="txt--padrao40">Versões</p>
+                        <p class="txt--padrao40 proximo">Composição</p>
                         <p class="txt--padrao12 pos-titulo">
-                            Criam diversas utilidades,
-                            como uma proteção para aplicar o logotipo e fotos ou separar blocos de informação, sempre ajudando a leitura. Você escolhe!
+                            Existem 3 momentos dos grafismos, que são criados
+                            a partir da repetição dos elementos.
                         </p>
 
-                        <div class="wrapper">
-                            <div class="cima grid--3colunas">
-                                <div class="box"></div>
-                            
-                                <div class="box">
-                                    <img src="<? echo $images ?>/grafismos/desk/Versoes/Grupo 5744.png" alt="">
-                                    <p class="txt--padrao12">Como cabeçalho</p>
-                                </div>
-    
-                                <div class="box">
-                                    <img src="<? echo $images ?>/grafismos/desk/Versoes/Grupo 5626.png" alt="">
-                                    <p class="txt--padrao12">Como cortina</p>
-                                </div>
+                        <div class="wrapper-composicao">
+                            <div class="box">
+                                <img class="redux" src="<? echo $images ?>grafismos/2-Composicao/Grupo 7455@2x (2).png" alt="">
+                                <p class="txt--padrao12">OPÇÃO 1</p>
                             </div>
-
-                            <div class="baixo grid--3colunas">
-                                <div class="box">
-                                    <img src="<? echo $images ?>/grafismos/desk/Versoes/Grupo de mascara 68.png" alt="">
-                                    <p class="txt--padrao12">Como pattern</p>
-                                </div>
-    
-                                <div class="box">
-                                    <img src="<? echo $images ?>/grafismos/desk/Versoes/Grupo 5743.png" alt="">
-                                    <p class="txt--padrao12">Como box</p>
-                                </div>
-    
-                                <div class="box">
-                                    <img src="<? echo $images ?>/grafismos/desk/Versoes/Grupo 5742.png" alt="">
-                                    <p class="txt--padrao12">Como bandeirola</p>
-                                </div>
+                            <div class="box">
+                                <img class="redux" src="<? echo $images ?>grafismos/2-Composicao/Grupo 7989@2x.png" alt="">
+                                <p class="txt--padrao12">OPÇÃO 2</p>
                             </div>
-                        </div>
-
-                        <div class="ideia">
-                            <div class="destaque-ideia">
-                                <p class="txt--padrao12">Dica: use o sobretom do vermelho para criar os planos duplos.</p>                        
+                            <div class="box opc3">
+                                <img class="redux" src="<? echo $images ?>grafismos/2-Composicao/Grupo 7988@2x.png" alt="">
+                                <p class="txt--padrao12">OPÇÃO 3</p>
                             </div>
                         </div>
                    </article>
                </section>
 
                <section id="sessao3">
-                   <article>
-                        <p class="txt--padrao40">Flexibilidade</p>
-
-                        <div class="wrapper">
-                            <div class="linha grid--2colunas-auto">
-                                <div class="box texto">
-                                    <p class="txt--padrao12">1.</p>
-                                    <p class="txt--padrao12">
-                                        Pode ser aplicado na parte
-                                        de cima ou de baixo da 
-                                        composição, até na lateral.
-                                    </p>
-                                </div>
-                                <div class="box">
-                                    <img class="desktopitem linha1" src="<? echo $images ?>/grafismos/desk/Flexibilidade/Grupo 6118.png" alt="">
-                                    <img class="mobileitem linha1" src="<? echo $images ?>/grafismos/mob/Flexibilidade/Grupo 6117.png" alt="">
-                                </div>
+                    <article>
+                        <p class="txt--padrao40 proximo">Proporção</p>
+                        <p class="txt--padrao12 pos-titulo">
+                            Os grafismos devem estar em harmonia com o logo e conteúdo.
+                            Procure aplicá-los numa posição agradável e sem gerar conflito 
+                            com os demais elementos da composição.
+                        </p>
+                        <div class="wrapper-proporcao">
+                            <div class="box">
+                                <img class="redux" src="<? echo $images ?>grafismos/3-Proporcao/Post_Sono_4x5@2x.jpg" alt="">
                             </div>
-
-                            <div class="linha grid--2colunas-auto">
-                                <div class="box texto">
-                                    <p class="txt--padrao12">2.</p>
-                                    <p class="txt--padrao12">
-                                        Use sempre os grafismos
-                                        como aliados para organizar
-                                        as informações que for aplicar.
-                                    </p>
-                                </div>
-                                <div class="box">
-                                    <img class="desktopitem linha2" src="<? echo $images ?>/grafismos/desk/Flexibilidade/Grupo 6120.png" alt="">
-                                    <img class="mobileitem linha2" src="<? echo $images ?>/grafismos/mob/Flexibilidade/Grupo 5769.png" alt="">
-                                </div>
+                            <div class="box">
+                                <img class="redux" src="<? echo $images ?>grafismos/3-Proporcao/Post_SemDor_4x5@2x.jpg" alt="">
                             </div>
-
-                            <div class="linha grid--2colunas-auto">
-                                <div class="box texto">
-                                    <p class="txt--padrao12">3.</p>
-                                    <p class="txt--padrao12">
-                                        E o legal das aplicações
-                                        na vertical é o movimento,
-                                        criando uma seta que
-                                        direciona o olhar.
-                                    </p>
-                                </div>
-                                <div class="box">
-                                    <img class="desktopitem linha3" src="<? echo $images ?>/grafismos/desk/Flexibilidade/Grupo 6122.png" alt="">
-                                    <img class="mobileitem linha3" src="<? echo $images ?>/grafismos/mob/Flexibilidade/Grupo 5771.png" alt="">
-                                </div>
+                            <div class="box">
+                                <img class="redux" src="<? echo $images ?>grafismos/3-Proporcao/KV 1@2x" alt="">
                             </div>
                         </div>
-                   </article>
+                    </article>
                </section>
 
                <section id="sessao4">
                    <article>
-                       <p class="txt--padrao20">Fique de olho</p>
-                       <p class="txt--padrao12 pos-titulo">
-                            No caso das caixas e cortinas, devem sempre 
-                            estar em contato com 3x lados da composição.
-                       </p>
-                       <img class="desktopitem" src="<? echo $images ?>/grafismos/desk/Fique de olho/Grupo 5719.png" alt="">
-                       <img class="mobileitem" src="<? echo $images ?>/grafismos/mob/Fique de olho/Grupo 5772.png" alt="">
+                        <p class="txt--padrao40 proximo">Orientação</p>
+                        <p class="txt--padrao12 pos-titulo">
+                            Como o grafismo é usado para manter a harmonia com os demais elementos, priorize usá-lo onde houver espaço para seu destaque. 
+                        </p>
+
+                        <div class="wrapper-orientacao">
+                            <div class="box">
+                                <img class="redux" src="<? echo $images ?>grafismos/4-Orientacao/Grupo 7410@2x.jpg" alt="">
+                                <p class="txt--padrao12">OPÇÃO 1</p>
+                            </div>
+                            <div class="box">
+                                <img class="redux" src="<? echo $images ?>grafismos/4-Orientacao/Grupo 7408@2x.jpg" alt="">
+                                <p class="txt--padrao12">OPÇÃO 2</p>
+                            </div>
+                            <div class="box">
+                                <img class="redux" src="<? echo $images ?>grafismos/4-Orientacao/Grupo 7409@2x.jpg" alt="">
+                                <p class="txt--padrao12">OPÇÃO 3</p>
+                            </div>
+                        </div>
                    </article>
                </section>
 
-               <section id="sessao5" class="p70-130">
-                   <article>
-                       <p class="txt--padrao20">Acento</p>
-                       <p class="txt--padrao12 pos-titulo">
-                            Além dos ícones na próxima sessão, o acento
-                            pode ser usado em diversas posições como apoio
-                            gráfico para direcionar o olhar.
-                       </p>
-                       <img class="desktopitem" src="<? echo $images ?>/grafismos/desk/Acento/Grupo 5741.png" alt="">
-                       <img class="mobileitem" src="<? echo $images ?>/grafismos/mob/Acento/Grupo 6117_mobile.png" alt="">
-                   </article>
+               <section id="sessao5">
+                    <article>
+                    <p class="txt--padrao40 proximo">Combinações<br> de cores</p>
+                        <p class="txt--padrao12 pos-titulo">
+                            Para combinar as cores com grafismos,<br>
+                            seu uso correto é em turquesa/branco, azul/branco,
+                            branco/turquesa e turquesa/azul.
+                        </p>
+                        <div class="wrapper-combinacoes">
+                            <div class="box">
+                                <div class="cima">
+                                    <img class="redux" src="<? echo $images ?>grafismos/5-Combinacao de cores/Grupo 7983@2x.png" alt="">
+                                    <img class="redux" src="<? echo $images ?>grafismos/5-Combinacao de cores/Grupo 7984@2x.png" alt="">
+                                </div>
+                                <div class="baixo">
+                                    <img class="redux" src="<? echo $images ?>grafismos/5-Combinacao de cores/Grupo 7985@2x.png" alt="">
+                                    <img class="redux" src="<? echo $images ?>grafismos/5-Combinacao de cores/Grupo 7986@2x.png" alt="">
+                                    <img class="redux" src="<? echo $images ?>grafismos/5-Combinacao de cores/Grupo 7987@2x.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
                </section>
 
                <section id="sessao6">
                    <article>
-                        <p class="txt--padrao40">Para se inspirar</p>
+                        <p class="txt--padrao40 proximo">Interação com outros elementos</p>
+                        <p class="txt--padrao12 pos-titulo">
+                            Para ser usado com outros elementos, o grafismo precisa ter equilíbrio 
+                            na peça, respeitando seu espaço de uso e assim podendo destacar 
+                            o elemento acrescentado. 
+                        </p>
 
-                        <div class="wrapper slick">
-                            <img src="<? echo $images ?>/pranchas/PranchaWendel.png" alt="">
-                            <img src="<? echo $images ?>/pranchas/Posters02.png" alt="">
-                            <img src="<? echo $images ?>/pranchas/Telas.png" alt="">
+                        <div class="wrapper-interacao">
+                            <div class="box">
+                                <img class="redux" src="<? echo $images ?>grafismos/6-Interacao com elementos/Imagem 7@2x.png" alt="">
+                                <p class="txt--padrao12">Grafismo com ilustração</p>
+                            </div>
+                            <div class="box">
+                                <img class="redux" src="<? echo $images ?>grafismos/6-Interacao com elementos/Post_Geral_4x5@2x.jpg" alt="">
+                                <p class="txt--padrao12">Grafismo com imagem</p>
+                            </div>
+                            <div class="box">
+                                <img class="redux" src="<? echo $images ?>grafismos/6-Interacao com elementos/Post_Vida_4x5@2x.jpg" alt="">
+                                <p class="txt--padrao12">Grafismo com imagem + ícone</p>
+                            </div>
                         </div>
                    </article>
                </section>
-               
+
+               <section id="sessao7">
+                    <article>
+                        <p class="txt--padrao40">Usos incorretos</p>
+
+                        <div class="wrapper-usos">
+                            <div class="box">
+                                <img class="redux" src="<? echo $images ?>grafismos/7-Usos incorretos/Grupo 7979@2x.png" alt="">
+                                <p class="txt--padrao12">Não distorcer as formas.</p>
+                            </div>
+                            <div class="box">
+                                <img class="redux" src="<? echo $images ?>grafismos/7-Usos incorretos/Grupo 7980@2x.png" alt="">
+                                <p class="txt--padrao12">Não aplicar fora da orientação original.</p>
+                            </div>
+                            <div class="box">
+                                <img class="redux" src="<? echo $images ?>grafismos/7-Usos incorretos/Grupo 7981@2x.png" alt="">
+                                <p class="txt--padrao12">Não misturar cores diferentes <br>na mesma forma.</p>
+                            </div>
+                            <div class="box">
+                                <img class="redux" src="<? echo $images ?>grafismos/7-Usos incorretos/Grupo 7982@2x.png" alt="">
+                                <p class="txt--padrao12">Não aplicar em cor secundária.</p>
+                            </div>
+                        </div>
+                    </article>
+               </section>
+
+               <section id="sessao8">
+                   <article>
+                        <p class="txt--padrao40">Para se inspirar</p>
+                        <div class="wrapper slick">
+                            <img src="<? echo $images ?>pranchas/sempreafrente.png" alt="">
+                            <img src="<? echo $images ?>pranchas/cardiologicos.png" alt="">
+                            <img src="<? echo $images ?>pranchas/morumbi.png" alt="">
+                        </div>
+                   </article>
+               </section>
 
                 <? include ('assets/download.php') ?>
                 <? include ('assets/footer.php') ?>

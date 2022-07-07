@@ -114,10 +114,25 @@
                         <a href="#sessao1">Inspiração</a>
                     </li>
                     <li>
-                        <a href="#sessao2">Versões</a>
+                        <a href="#sessao2">Composição</a>
                     </li>
                     <li>
-                        <a href="#sessao3">Flexibilidade</a>
+                        <a href="#sessao3">Proporção</a>
+                    </li>
+                    <li>
+                        <a href="#sessao4">Orientação</a>
+                    </li>
+                    <li>
+                        <a href="#sessao5">Combinação de cores</a>
+                    </li>
+                    <li>
+                        <a href="#sessao6">Interação com<br> outros elementos</a>
+                    </li>
+                    <li>
+                        <a href="#sessao7">Usos incorretos</a>
+                    </li>
+                    <li>
+                        <a href="#sessao8">Para se inspirar</a>
                     </li>
                 </ul>
 

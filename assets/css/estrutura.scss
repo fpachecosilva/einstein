@@ -751,7 +751,7 @@ main {
             a.active { position: relative; }
             li {
                 margin-left: 14px;
-                line-height: normal;
+                line-height: inherit;
                 a {
                     opacity: 0.5;
                     &:hover { opacity: 0.8; }
@@ -1886,74 +1886,147 @@ main {
 
 /* Pagina Grafismos Desktop INICIO */
     #grafismos {
-        #sessao1 {
-            img {
-                margin-top: -35px;
+        .modulo3flex {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            margin-top: 75px;
+            .box {
+                padding-bottom: 60px;
+                border-bottom: 1px solid var(--principal);
+                width: 217px;
                 position: relative;
-                z-index: -1;
-                width: 1146.5px;
+                p {
+                    text-align: center;
+                    position: absolute;
+                    bottom: -30px;
+                    width: 100%;
+                    font-weight: bold;
+                }
+                &.opc3 { width: 521px; }
             }
         }
+        #sessao1 {
+            .wrapper-inspiracao {
+                display: flex;
+                align-items: center;
+                gap: 50px;
+                margin-left: 50px;
+            } 
+        }
         #sessao2 {
-            background-color: var(--bgcinza);
-            .pos-titulo { max-width: 181px; }
-            .wrapper {
-                display: grid;
-                grid-template-rows: auto auto;
-                margin-top: -140px;
-                justify-content: flex-start;
-                .cima { margin-bottom: 60px; }
+            .pos-titulo { max-width: 295px; }
+            .wrapper-composicao {
+                display: flex;
+                gap: 25px;
+                margin-top: 75px;
+                flex-wrap: wrap;
                 .box {
-                    display: grid;
-                    place-items: center;
-                    margin-right: 75px;
-                    img { margin-bottom: 34px; width: 300px; }
+                    padding-bottom: 60px;
+                    border-bottom: 1px solid var(--principal);
+                    width: 217px;
+                    position: relative;
+                    p {
+                        text-align: center;
+                        position: absolute;
+                        bottom: -30px;
+                        width: 100%;
+                        font-weight: bold;
+                    }
+                    &.opc3 { width: 521px; }
                 }
-            }
-            .ideia {
-                margin-left: 45px;
-                margin-bottom: 0;
-                margin-top: 130px;
             }
         }
         #sessao3 {
-            .linha {
-                align-items: center;
-                margin-bottom: 65px;
-                &:last-of-type { margin-bottom: 0; }
-                .box {
-                    &.texto {
-                        max-width: 285px;
-                        display: inline-flex;
-                        text-align: left;
-                        p:last-of-type { max-width: 166px; margin-left: 11px; }
-                    }
-                }
-            }
-            .linha1 { width: 697px; }
-            .linha2 { width: 700px; }
-            .linha3 { width: 700px; }
-        }
-        #sessao4 {
             background-color: var(--bgcinza);
-            img {
-                margin: auto;
-                margin-top: -80px;
-                width: 282px;
+            .pos-titulo { max-width: 357px; }
+            .wrapper-proporcao {
+                display: flex;
+                margin-top: 60px;
+                gap: 15px;
+                flex-wrap: wrap;
+            }
+        }
+
+        #sessao4 {
+            .pos-titulo { max-width: 392px; }
+            .wrapper-orientacao {
+                display: flex;
+                gap: 25px;
+                margin-top: 75px;
+                flex-wrap: wrap;
+                justify-content: center;
+                .box {
+                    padding-bottom: 35px;
+                    border-bottom: 1px solid var(--principal);
+                    width: 217px;
+                    position: relative;
+                    p {
+                        text-align: center;
+                        position: absolute;
+                        bottom: -30px;
+                        width: 100%;
+                        font-weight: bold;
+                    }
+                    &.opc3 { width: 521px; }
+                }
             }
         }
         #sessao5 {
-            background-color: var(--secundaria);            
-            p {
-                color: #FFF;
-                &.pos-titulo { max-width: 268px; }
+            background-color: var(--bgcinza);
+            .pos-titulo { max-width: 293px; }
+            .wrapper-combinacoes {
+                display: flex;
+                justify-content: center;
+                margin-top: -75px;
+                .box > div {
+                    display: flex;
+                    gap: 80px;
+                    &.cima { justify-content: flex-end; margin-bottom: 20px; }
+                }
             }
-            img {
-                margin: auto;
-                margin-top: 64px;
-                width: 927.5px;
+        }
+        #sessao6 {
+            .pos-titulo { max-width: 382px; }
+            .wrapper-interacao {
+                display: flex;
+                gap: 25px;
+                margin-top: 75px;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                .box {
+                    padding-bottom: 35px;
+                    border-bottom: 1px solid var(--principal);
+                    width: 217px;
+                    position: relative;
+                    p {
+                        text-align: center;
+                        position: absolute;
+                        bottom: -30px;
+                        width: 100%;
+                    }
+                    &.opc3 { width: 521px; }
+                }
             }
-        }        
+        }
+        #sessao7 {
+            background-color: var(--bgcinza);
+            .wrapper-usos {
+                display: flex;
+                gap: 15px;
+                margin-top: 75px;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                .box {
+                    width: 217px;
+                    position: relative;
+                    p {
+                        margin-top: 10px;
+                    }
+                    &.opc3 { width: 521px; }
+                }
+            }
+        }
     }
 /* Pagina Grafismos Desktop FIM */
 

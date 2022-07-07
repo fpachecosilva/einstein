@@ -1338,7 +1338,7 @@ nav.menu ul a.active {
 
 nav.menu ul li {
   margin-left: 14px;
-  line-height: normal;
+  line-height: inherit;
 }
 
 nav.menu ul li a {
@@ -3216,116 +3216,228 @@ header h1 {
 
 /* Pagina Ilustracao Desktop FIM */
 /* Pagina Grafismos Desktop INICIO */
-#grafismos #sessao1 img {
-  margin-top: -35px;
-  position: relative;
-  z-index: -1;
-  width: 1146.5px;
+#grafismos .modulo3flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 75px;
 }
 
-#grafismos #sessao2 {
-  background-color: var(--bgcinza);
+#grafismos .modulo3flex .box {
+  padding-bottom: 60px;
+  border-bottom: 1px solid var(--principal);
+  width: 217px;
+  position: relative;
+}
+
+#grafismos .modulo3flex .box p {
+  text-align: center;
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
+  font-weight: bold;
+}
+
+#grafismos .modulo3flex .box.opc3 {
+  width: 521px;
+}
+
+#grafismos #sessao1 .wrapper-inspiracao {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+  margin-left: 50px;
 }
 
 #grafismos #sessao2 .pos-titulo {
-  max-width: 181px;
+  max-width: 295px;
 }
 
-#grafismos #sessao2 .wrapper {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: auto auto;
-      grid-template-rows: auto auto;
-  margin-top: -140px;
+#grafismos #sessao2 .wrapper-composicao {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 25px;
+  margin-top: 75px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#grafismos #sessao2 .wrapper-composicao .box {
+  padding-bottom: 60px;
+  border-bottom: 1px solid var(--principal);
+  width: 217px;
+  position: relative;
+}
+
+#grafismos #sessao2 .wrapper-composicao .box p {
+  text-align: center;
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
+  font-weight: bold;
+}
+
+#grafismos #sessao2 .wrapper-composicao .box.opc3 {
+  width: 521px;
+}
+
+#grafismos #sessao3 {
+  background-color: var(--bgcinza);
+}
+
+#grafismos #sessao3 .pos-titulo {
+  max-width: 357px;
+}
+
+#grafismos #sessao3 .wrapper-proporcao {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 60px;
+  gap: 15px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#grafismos #sessao4 .pos-titulo {
+  max-width: 392px;
+}
+
+#grafismos #sessao4 .wrapper-orientacao {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 25px;
+  margin-top: 75px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#grafismos #sessao4 .wrapper-orientacao .box {
+  padding-bottom: 35px;
+  border-bottom: 1px solid var(--principal);
+  width: 217px;
+  position: relative;
+}
+
+#grafismos #sessao4 .wrapper-orientacao .box p {
+  text-align: center;
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
+  font-weight: bold;
+}
+
+#grafismos #sessao4 .wrapper-orientacao .box.opc3 {
+  width: 521px;
+}
+
+#grafismos #sessao5 {
+  background-color: var(--bgcinza);
+}
+
+#grafismos #sessao5 .pos-titulo {
+  max-width: 293px;
+}
+
+#grafismos #sessao5 .wrapper-combinacoes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -75px;
+}
+
+#grafismos #sessao5 .wrapper-combinacoes .box > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 80px;
+}
+
+#grafismos #sessao5 .wrapper-combinacoes .box > div.cima {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+#grafismos #sessao6 .pos-titulo {
+  max-width: 382px;
+}
+
+#grafismos #sessao6 .wrapper-interacao {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 25px;
+  margin-top: 75px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
 
-#grafismos #sessao2 .wrapper .cima {
-  margin-bottom: 60px;
+#grafismos #sessao6 .wrapper-interacao .box {
+  padding-bottom: 35px;
+  border-bottom: 1px solid var(--principal);
+  width: 217px;
+  position: relative;
 }
 
-#grafismos #sessao2 .wrapper .box {
-  display: -ms-grid;
-  display: grid;
-  place-items: center;
-  margin-right: 75px;
+#grafismos #sessao6 .wrapper-interacao .box p {
+  text-align: center;
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
 }
 
-#grafismos #sessao2 .wrapper .box img {
-  margin-bottom: 34px;
-  width: 300px;
+#grafismos #sessao6 .wrapper-interacao .box.opc3 {
+  width: 521px;
 }
 
-#grafismos #sessao2 .ideia {
-  margin-left: 45px;
-  margin-bottom: 0;
-  margin-top: 130px;
-}
-
-#grafismos #sessao3 .linha {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 65px;
-}
-
-#grafismos #sessao3 .linha:last-of-type {
-  margin-bottom: 0;
-}
-
-#grafismos #sessao3 .linha .box.texto {
-  max-width: 285px;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  text-align: left;
-}
-
-#grafismos #sessao3 .linha .box.texto p:last-of-type {
-  max-width: 166px;
-  margin-left: 11px;
-}
-
-#grafismos #sessao3 .linha1 {
-  width: 697px;
-}
-
-#grafismos #sessao3 .linha2 {
-  width: 700px;
-}
-
-#grafismos #sessao3 .linha3 {
-  width: 700px;
-}
-
-#grafismos #sessao4 {
+#grafismos #sessao7 {
   background-color: var(--bgcinza);
 }
 
-#grafismos #sessao4 img {
-  margin: auto;
-  margin-top: -80px;
-  width: 282px;
+#grafismos #sessao7 .wrapper-usos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+  margin-top: 75px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
-#grafismos #sessao5 {
-  background-color: var(--secundaria);
+#grafismos #sessao7 .wrapper-usos .box {
+  width: 217px;
+  position: relative;
 }
 
-#grafismos #sessao5 p {
-  color: #FFF;
+#grafismos #sessao7 .wrapper-usos .box p {
+  margin-top: 10px;
 }
 
-#grafismos #sessao5 p.pos-titulo {
-  max-width: 268px;
-}
-
-#grafismos #sessao5 img {
-  margin: auto;
-  margin-top: 64px;
-  width: 927.5px;
+#grafismos #sessao7 .wrapper-usos .box.opc3 {
+  width: 521px;
 }
 
 /* Pagina Grafismos Desktop FIM */
