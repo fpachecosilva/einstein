@@ -104,44 +104,43 @@ a, ul, li, .link-abre, nav, .menu, section, .ideia, .destaque-ideia, #abrirmenu,
     &--padrao12 {         
         font-size: 0.75rem;
         line-height: 0.875rem;
-        &.pos-titulo {
-            max-width: 250px;
-        }
-        &.com-bold {
-            font-weight: bold;
-        }
+        &.pos-titulo { max-width: 250px; }
+        &.com-bold { font-weight: bold; }
+        &.light { font-weight: 300; }
     }
     &--padrao20 {            
         font-size: 1.25rem;
         line-height: 1.75rem;
         font-weight: 500;
         margin-bottom: 10px;
-        &.sem-bold {
-            font-weight: 400;
-        }
+        &.sem-bold { font-weight: 400; }
+        &.com-bold { font-weight: bold; }
+        &.light { font-weight: 300; }
     }
     &--padrao32 {
         font-size: 2rem;
         line-height: 2.625rem;
         font-weight: 500;
         margin-bottom: 10px;
-        &.sem-bold {
-            font-weight: 400;
-        }
+        &.sem-bold { font-weight: 400; }
+    }
+    &--padrao35 {
+        font-size: 35px;
+        font-weight: 500;
+        &.sem-bold { font-weight: 400; }
     }
     &--padrao40 {            
         font-size: 2.5rem;
         line-height: 2.5rem;
         font-weight: 500;
         margin-bottom: 32px;
-        &.proximo {
-            margin-bottom: 10px;
-        }
-        &.sem-bold {
-            font-weight: 400;
-        }
-    }
+        &.proximo { margin-bottom: 10px; }
+        &.com-bold { font-weight: bold; }
+        &.sem-bold { font-weight: 400; }
+        &.light { font-weight: 300; }
+    }    
 }
+i { font-style: italic; }
 @keyframes fade {
     0% {
         opacity: 0;        

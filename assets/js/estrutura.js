@@ -69,121 +69,6 @@ jQuery(document).ready(function () {
 		}
 	});
 
-	// QUIZ
-	$('.quiz').each(function () {
-		var sessao = $(this).parent().parent().attr('id');
-		sessao = '#' + sessao;
-		var divsDir = $(this).find('.dir div')
-		var divEsq = $(this).find('.esq')
-
-		$(divEsq).click(function () {
-			$(this).removeClass('certo errado')
-		})
-
-		$(divsDir).each(function () {
-			$(this).click(function () {
-				var spanActive = $(this).find('span.active');
-
-				if (spanActive.hasClass('errado')) {
-					$(this).removeClass('certo');
-					$(this).addClass('errado');
-					$(divEsq).removeClass('certo')
-					$(divEsq).addClass('errado')
-
-				} else if (spanActive.hasClass('certo')) {
-					$(this).removeClass('errado');
-					$(this).addClass('certo');
-					$(divEsq).removeClass('errado')
-					$(divEsq).addClass('certo')
-
-				} else {
-					$(this).removeClass('certo errado')
-					$(divEsq).removeClass('certo errado')
-				}
-
-				setTimeout(function () {
-					$(divEsq).find('.avancar').click()
-				}, 3500)
-			})
-		})
-
-		var total = $(sessao + ' .cima span').length;
-		$(sessao + ' #total').text(total);
-		var ativo = $(sessao + ' .dir span.active').index() + 1;
-		$(sessao + ' #atual').text(ativo);
-
-
-		$(sessao + ' .setas .avancar').click(function () {
-			$(divEsq).removeClass('certo errado')
-			$(divsDir).removeClass('certo errado')
-
-			var ativo = $(sessao + ' .dir span.active');
-			var index = ativo.index();
-			var proximo = index + 1;
-			var anterior = index - 2;
-
-			// Controle de opacidade das setas
-			if (proximo + 1 == total) {
-				$(this).addClass('op20');
-			}
-
-			if (proximo + 1 != total) {
-				$(sessao + ' .setas .voltar').removeClass('op20');
-			}
-
-			// Controle de limites das setas
-			if (proximo == total) {
-				return false;
-			} else {
-
-				$(sessao + ' .dir span.active').removeClass('active');
-				$(sessao + ' #atual').text(index + 2)
-
-				$(sessao + ' .dir span').each(function () {
-					if ($(this).index() == proximo) {
-						$(this).addClass('active');
-					}
-				})
-			}
-		})
-
-		var ativo = $(sessao + ' .dir span.active').index();
-		$(sessao + ' .setas .voltar').click(function () {
-
-			$(divEsq).removeClass('certo errado')
-			$(divsDir).removeClass('certo errado')
-
-			var ativo = $(sessao + ' .dir span.active');
-			var index = ativo.index();
-			var proximo = index + 1;
-			var anterior = index - 1;
-
-			// Controle de opacidade das setas
-			if (anterior == total - total) {
-				$(this).addClass('op20');
-			}
-
-			if (anterior != total - total) {
-				$(sessao + ' .setas .avancar').removeClass('op20');
-			}
-
-			// Controle de limites das setas
-			if (anterior == -1) {
-				return false;
-			} else {
-
-				$(sessao + ' .dir span.active').removeClass('active');
-				$(sessao + ' #atual').text(index)
-
-				$(sessao + ' .dir span').each(function () {
-					if ($(this).index() == anterior) {
-						$(this).addClass('active');
-					}
-				})
-			}
-		})
-	})
-
 	// Aplicacoes Slider
 	$('.slick').slick({
 		dots: true,
@@ -220,9 +105,7 @@ jQuery(document).ready(function () {
 
 	$('.slick-next').click(function () {
 		$('.slick-prev').css('background-image', 'url("assets/img/voltar.png")');
-
 		$('.slick').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
-
 			if (nextSlide != 0 && nextSlide != 1) {
 				$('.slick-next').css('background-image', 'url("assets/img/avancar-white.png")');
 			} else {
@@ -288,8 +171,6 @@ jQuery(document).ready(function () {
 			$(nomeFooter)[0].innerHTML = primeiroLinkTexto;
 		}
 	}
-
-	
 
 	// Funções executadas apenas na versão Desktop:
 	function DesktopVersion() {

@@ -207,6 +207,10 @@ a, ul, li, .link-abre, nav, .menu, section, .ideia, .destaque-ideia, #abrirmenu,
   font-weight: bold;
 }
 
+.txt--padrao12.light {
+  font-weight: 300;
+}
+
 .txt--padrao20 {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -218,6 +222,14 @@ a, ul, li, .link-abre, nav, .menu, section, .ideia, .destaque-ideia, #abrirmenu,
   font-weight: 400;
 }
 
+.txt--padrao20.com-bold {
+  font-weight: bold;
+}
+
+.txt--padrao20.light {
+  font-weight: 300;
+}
+
 .txt--padrao32 {
   font-size: 2rem;
   line-height: 2.625rem;
@@ -226,6 +238,15 @@ a, ul, li, .link-abre, nav, .menu, section, .ideia, .destaque-ideia, #abrirmenu,
 }
 
 .txt--padrao32.sem-bold {
+  font-weight: 400;
+}
+
+.txt--padrao35 {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.txt--padrao35.sem-bold {
   font-weight: 400;
 }
 
@@ -240,8 +261,20 @@ a, ul, li, .link-abre, nav, .menu, section, .ideia, .destaque-ideia, #abrirmenu,
   margin-bottom: 10px;
 }
 
+.txt--padrao40.com-bold {
+  font-weight: bold;
+}
+
 .txt--padrao40.sem-bold {
   font-weight: 400;
+}
+
+.txt--padrao40.light {
+  font-weight: 300;
+}
+
+i {
+  font-style: italic;
 }
 
 @-webkit-keyframes fade {
@@ -339,6 +372,10 @@ section.p45-100 {
   padding: 45px 0 100px 0;
 }
 
+section.p50-50 {
+  padding: 50px 0 50px 0;
+}
+
 section.p65-70 {
   padding: 65px 0 70px 0;
 }
@@ -381,6 +418,10 @@ section.p80-130 {
 
 section.p85-65 {
   padding: 85px 0 65px 0;
+}
+
+section.p100-50 {
+  padding: 100px 0 50px 0;
 }
 
 section.p100-95 {
@@ -820,262 +861,6 @@ main {
 
 .modulo-abas .nav_tabs .content .tab.horizontal .dir div p {
   margin-left: 35px;
-}
-
-.quiz {
-  min-height: 456px;
-}
-
-.quiz .esq {
-  background-color: var(--terciaria);
-  cursor: pointer;
-}
-
-.quiz .esq.certo {
-  background-color: var(--principal);
-  color: #fff;
-  font-weight: bold;
-}
-
-.quiz .esq.certo .texto-principal {
-  color: #fff !important;
-}
-
-.quiz .esq.certo .setas .voltar {
-  background-image: url("../img/voltar-white.svg") !important;
-}
-
-.quiz .esq.certo .setas .avancar {
-  background-image: url("../img/avancar-white.svg") !important;
-}
-
-.quiz .esq.errado {
-  background-color: var(--bgcinza);
-}
-
-.quiz .esq .principal {
-  height: 100%;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-}
-
-.quiz .esq .principal .topo {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  height: 20px;
-  margin-left: 35px;
-  margin-right: 35px;
-  margin-top: 35px;
-  font-size: 0.9375rem;
-  font-weight: bold;
-}
-
-.quiz .esq .principal .topo div:first-child {
-  width: 90%;
-}
-
-.quiz .esq .principal .topo div:last-child {
-  width: 10%;
-}
-
-.quiz .esq .principal .topo .paginacao {
-  text-align: right;
-}
-
-.quiz .esq .principal .setas {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  margin-left: 35px;
-  margin-right: 35px;
-  margin-bottom: 60px;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.quiz .esq .principal .setas .voltar {
-  background-image: url("../img/voltar.svg");
-  background-repeat: no-repeat;
-  display: block;
-  cursor: pointer;
-  width: 19px;
-  height: 32px;
-}
-
-.quiz .esq .principal .setas .avancar {
-  background-image: url("../img/avancar.svg");
-  background-repeat: no-repeat;
-  display: block;
-  cursor: pointer;
-  width: 19px;
-  height: 32px;
-}
-
-.quiz .esq .principal .texto-principal {
-  margin-left: 35px;
-  margin-right: 35px;
-  font-size: 2.5rem;
-  line-height: 2.5rem;
-  font-weight: bold;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.quiz .dir div {
-  padding: 0 42px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-  text-align: center;
-  position: relative;
-}
-
-.quiz .dir div:first-child:before {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 1px;
-  background-color: var(--principal);
-  position: absolute;
-  bottom: 0;
-}
-
-.quiz .dir div.certo {
-  background-color: var(--principal);
-  color: #fff;
-  font-weight: bold;
-}
-
-.quiz .dir div.certo span:before {
-  content: url("../img/quiz-certo.svg");
-  display: block;
-  margin-bottom: 15px;
-}
-
-.quiz .dir div.errado {
-  background-color: var(--bgcinza);
-}
-
-.quiz .dir div.errado span:before {
-  content: url("../img/quiz-errado.svg");
-  display: block;
-  margin-bottom: 15px;
-}
-
-.quiz .dir .cima {
-  cursor: pointer;
-}
-
-.quiz .dir .cima span {
-  display: none;
-  opacity: 0;
-}
-
-.quiz .dir .cima span.active {
-  display: block;
-  opacity: 1;
-  -webkit-animation: fade 1s linear;
-          animation: fade 1s linear;
-}
-
-.quiz .dir .baixo {
-  cursor: pointer;
-}
-
-.quiz .dir .baixo span {
-  display: none;
-  opacity: 0;
-}
-
-.quiz .dir .baixo span.active {
-  display: block;
-  opacity: 1;
-  -webkit-animation: fade 2s linear;
-          animation: fade 2s linear;
-}
-
-.quiz.estado-padrao .esq .texto-principal {
-  color: var(--principal);
-}
-
-.quiz.errado .esq {
-  background-color: var(--bgcinza);
-  cursor: pointer;
-}
-
-.quiz.errado .esq .texto-principal {
-  color: var(--principal);
-}
-
-.quiz.errado .esq .topo {
-  color: var(--principal);
-}
-
-.quiz.errado .dir div:first-child:before {
-  display: none;
-}
-
-.quiz.errado .dir .cima {
-  background-color: var(--bgcinza);
-}
-
-.quiz.certo .esq {
-  background-color: var(--principal);
-  cursor: pointer;
-}
-
-.quiz.certo .esq .texto-principal {
-  color: #fff;
-}
-
-.quiz.certo .esq .topo {
-  color: #fff;
-}
-
-.quiz.certo .esq .setas .voltar {
-  background-image: url("../img/voltar-white.svg") !important;
-}
-
-.quiz.certo .esq .setas .avancar {
-  background-image: url("../img/avancar-white.svg") !important;
-}
-
-.quiz.certo .dir div {
-  font-weight: bold;
-}
-
-.quiz.certo .dir div:last-child:before {
-  display: none;
-}
-
-.quiz.certo .dir .cima {
-  color: var(--principal);
-}
-
-.quiz.certo .dir .baixo {
-  background-color: var(--principal);
-  color: #fff;
 }
 
 /* Módulos reutilizáveis Desktop FIM */
@@ -3441,408 +3226,578 @@ header h1 {
 }
 
 /* Pagina Grafismos Desktop FIM */
-/* Pagina Pictografia Desktop INICIO */
-#pictografia #sessao1 {
-  background-color: var(--auxiliar2);
+/* Pagina Estilo Fotográfico Desktop INICIO */
+#estilo-fotografico .wrapper-quadro-imagens {
+  max-width: 948px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#estilo-fotografico .wrapper-quadro-imagens + p {
+  margin-top: 10px;
+}
+
+#estilo-fotografico #sessao1 {
+  padding-bottom: 0;
+}
+
+#estilo-fotografico #sessao1 .wrapper-mundo .txt--padrao35 {
+  margin-top: 90px;
+}
+
+#estilo-fotografico #sessao1 .wrapper-mundo img {
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+#estilo-fotografico #sessao1 .wrapper-mundo .txt-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#estilo-fotografico #sessao1 .wrapper-mundo .txt-wrapper p:first-of-type {
+  font-weight: bold;
+}
+
+#estilo-fotografico #sessao1 .wrapper-mundo .txt-wrapper p:last-of-type {
+  margin-left: 150px;
+}
+
+#estilo-fotografico #sessao1 .wrapper-diretrizes {
+  margin-top: 40px;
+}
+
+#estilo-fotografico #sessao1 .wrapper-diretrizes div.wrapper-txt {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 60px;
+}
+
+#estilo-fotografico #sessao1 .wrapper-diretrizes div.wrapper-txt p {
+  line-height: 20px;
+}
+
+#estilo-fotografico #sessao2 p.txt--padrao12 {
+  max-width: 311px;
+}
+
+#estilo-fotografico #sessao3 p.txt--padrao12 {
+  max-width: 500px;
+}
+
+#estilo-fotografico #sessao7 .wrapper-momentos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 13px;
+}
+
+#estilo-fotografico #sessao7 .wrapper-momentos .box {
+  text-align: center;
+}
+
+#estilo-fotografico #sessao7 .wrapper-momentos .box .rosabg {
+  background-color: #EE5A7B !important;
+}
+
+#estilo-fotografico #sessao7 .wrapper-momentos .box .rosatxt {
+  color: #EE5A7B;
+}
+
+#estilo-fotografico #sessao7 .wrapper-momentos .box .roxabg {
+  background-color: #7846D4 !important;
+}
+
+#estilo-fotografico #sessao7 .wrapper-momentos .box .roxatxt {
+  color: #7846D4;
+}
+
+#estilo-fotografico #sessao7 .wrapper-momentos .box .laranjabg {
+  background-color: #E3740C !important;
+}
+
+#estilo-fotografico #sessao7 .wrapper-momentos .box .laranjatxt {
+  color: #E3740C;
+}
+
+#estilo-fotografico #sessao7 .wrapper-momentos .box .cima {
+  margin-bottom: 30px;
+}
+
+#estilo-fotografico #sessao7 .wrapper-momentos .box .cima p {
+  margin-bottom: 10px;
+}
+
+#estilo-fotografico #sessao7 .wrapper-momentos img {
+  max-width: 164px;
+}
+
+#estilo-fotografico #sessao7 .wrapper-momentos .wrapper-bolinhas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#estilo-fotografico #sessao7 .wrapper-momentos .wrapper-bolinhas .bolinha {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: var(--principal);
+  display: block;
+}
+
+#estilo-fotografico #sessao8 {
+  background-color: var(--bgcinza);
+}
+
+#estilo-fotografico #sessao8 .wrapper-incorretos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 32px;
+}
+
+#estilo-fotografico #sessao8 .wrapper-incorretos .box p {
+  max-width: 270px;
+  margin-top: 10px;
+}
+
+/* Pagina Estilo Fotográfico Desktop FIM */
+/* Pagina Aplicacoes Desktop INICIO */
+#aplicacoes #sessao1 {
+  margin-bottom: 40px;
+}
+
+#aplicacoes #sessao2 .wrapper-img {
+  width: 1050px;
+  max-width: 100%;
+  border-radius: 30px;
+  background-color: var(--bgcinza);
+  padding-top: 85px;
+}
+
+#aplicacoes #sessao2 .wrapper-img img {
+  margin: auto;
+}
+
+#aplicacoes #sessao3 {
+  margin-bottom: 170px;
+}
+
+/* Pagina Aplicacoes Desktop FIM */
+/* Pagina Identidade Desktop INICIO */
+#identidade .chamada {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+#identidade .negativo {
+  color: #FF0000;
+}
+
+#identidade .check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 37px;
+}
+
+#identidade .check .desc {
+  font-size: 13px;
+  line-height: normal;
+}
+
+#identidade .check img {
+  margin-top: 3px;
+  margin-right: 6px;
+}
+
+#identidade .box-cinza {
+  padding-top: 50px;
+  padding-bottom: 60px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: var(--bgcinza);
+  line-height: initial;
+}
+
+#identidade .box-cinza p {
+  line-height: normal;
+}
+
+#identidade .box-cinza p.txt--padrao35 {
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+#identidade #sessao1 .pos-titulo {
+  max-width: 468px;
+}
+
+#identidade #sessao3 {
+  padding-bottom: 0;
+  padding-top: 30px;
+}
+
+#identidade #sessao5 {
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+
+#identidade .infograficos article {
+  padding-left: 100px;
+}
+
+#identidade .infograficos .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 90px 0;
+}
+
+#identidade .infograficos .header p {
+  color: #FFF;
+  margin: 0;
+  margin-left: 50px;
+}
+
+#identidade .infograficos .header.rosa {
+  background-color: #EE5A7B;
+}
+
+#identidade .infograficos .header.laranja {
+  background-color: #E3740C;
+}
+
+#identidade .infograficos .header.roxa {
+  background-color: #7846D4;
+}
+
+#identidade .infograficos li {
+  list-style-type: disc;
+  margin-left: 19px;
+  font-size: 13px;
+}
+
+#identidade .infograficos .cima {
+  margin-top: 40px;
+  margin-bottom: 65px;
+}
+
+#identidade .infograficos .cima p:first-child {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#identidade .infograficos .cima p:last-child {
+  font-size: 13px;
+  line-height: normal;
+  margin-top: 10px;
+  width: 520px;
+  max-width: 100%;
+}
+
+#identidade .infograficos .meio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+
+#identidade .infograficos .meio span {
+  width: 100%;
+  height: 6px;
+  display: block;
+  background: #f34f71;
+  border-radius: 30px;
+}
+
+#identidade .infograficos .meio .esq {
+  width: 390px;
+}
+
+#identidade .infograficos .meio .ligrafico {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#identidade .infograficos .meio .ligrafico .lista {
+  width: 60%;
+}
+
+#identidade .infograficos .meio .ligrafico .grafico {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 21px;
+}
+
+#identidade .infograficos .baixo {
+  margin-top: 15px;
+}
+
+#identidade .infograficos .baixo .wrapper-italics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 63px;
+}
+
+#identidade .infograficos .baixo .wrapper-italics .box {
+  width: 180px;
+}
+
+#identidade .infograficos .baixo .wrapper-italics p {
+  font-size: 13px;
+  font-style: italic;
+  line-height: normal;
+}
+
+#identidade #sessao9 span {
+  background-color: #E3740C;
+}
+
+#identidade #sessao9 span:nth-child(1), #identidade #sessao9 span:nth-child(3) {
+  width: 50%;
+}
+
+#identidade #sessao9 .dir ul {
+  max-width: 417px;
+}
+
+#identidade #sessao10 span {
+  background-color: #7846D4;
+}
+
+#identidade #sessao10 span:nth-child(1) {
+  width: 50%;
+}
+
+/* Pagina Identidade Desktop FIM */
+/* Pagina Boas práticas Desktop INICIO */
+#boas-praticas .header {
+  background-color: var(--bgcinza);
+  padding: 40px 50px;
+  margin-bottom: 45px;
+}
+
+#boas-praticas .txtss p {
+  max-width: 470px;
+}
+
+#boas-praticas .txtss p.light {
+  margin-bottom: 35px;
+}
+
+#boas-praticas .ml50 {
+  margin-left: 50px;
+}
+
+#boas-praticas .ml50.top30 {
+  margin-top: 30px;
+}
+
+#boas-praticas #sessao1 {
   padding-top: 0;
   padding-bottom: 0;
 }
 
-#pictografia #sessao1 p {
-  color: var(--secundaria);
-  max-width: 290px;
-  font-size: 3.5rem;
-  line-height: 3.5625rem;
-  height: 100%;
+#boas-praticas #sessao1 .topo {
+  padding-top: 35px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  background-color: var(--bgcinza);
+}
+
+#boas-praticas #sessao1 p {
+  max-width: 472px;
+}
+
+#boas-praticas #sessao1 .box-italic {
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
+
+#boas-praticas #sessao1 .box-italic li {
+  list-style: disc;
+  margin-left: 19px;
+  font-style: italic;
+  font-size: 12px;
+}
+
+#boas-praticas #sessao2 {
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+#boas-praticas #sessao2 .header .light {
+  max-width: 713px;
+}
+
+#boas-praticas #sessao3 {
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+#boas-praticas #sessao3 .header .light {
+  max-width: 790px;
+}
+
+#boas-praticas #sessao3 .box-meses {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 25px;
+}
+
+#boas-praticas #sessao3 .box-meses .box {
+  border-left: 1px solid var(--terciaria);
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+#boas-praticas #sessao3 .box-meses .box p.light {
+  margin-bottom: 0;
+}
+
+#boas-praticas #sessao3 .box-meses .box:first-of-type {
+  border-left: 0;
+  padding-left: 0;
+}
+
+#boas-praticas #sessao3 .box-formatacao {
+  width: 625px;
+  margin-bottom: 50px;
+}
+
+#boas-praticas #sessao3 .box-formatacao > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#boas-praticas #sessao3 .box-formatacao > div.cima {
+  border-bottom: 1px solid var(--terciaria);
+}
+
+#boas-praticas #sessao3 .box-formatacao > div.cima .light {
+  margin-bottom: 25px;
+}
+
+#boas-praticas #sessao3 .box-formatacao > div.baixo .box {
+  padding-top: 20px;
+}
+
+#boas-praticas #sessao3 .box-formatacao .box {
+  width: 33.33%;
+  border-right: 1px solid var(--terciaria);
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+#boas-praticas #sessao3 .box-formatacao .box:nth-child(1) {
+  padding-left: 0;
+}
+
+#boas-praticas #sessao3 .box-formatacao .box:nth-child(3) {
+  border: 0;
+  padding-right: 0;
+}
+
+#boas-praticas #sessao3 .box-formatacao .light {
+  margin-bottom: 0;
+}
+
+#boas-praticas #sessao3 .siglas .light {
+  margin-left: 160px;
+  border-left: 1px solid var(--terciaria);
+  padding-left: 27px;
+}
+
+#boas-praticas #sessao4 {
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+#boas-praticas #sessao4 .header {
+  margin-bottom: 45px;
+}
+
+#boas-praticas #sessao4 .header .light {
+  max-width: 776px;
+}
+
+#boas-praticas #sessao4 .light i {
+  margin-bottom: 35px;
+}
+
+#boas-praticas #sessao4 article {
+  max-width: 860px;
+  padding-right: 30px;
+}
+
+#boas-praticas #sessao5 {
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+#boas-praticas #sessao5 .header {
+  margin-bottom: 0;
+}
+
+#boas-praticas #sessao5 .resumo {
+  margin-top: 30px;
+}
+
+#boas-praticas #sessao5 .resumo .box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 70px;
-}
-
-#pictografia #sessao1 img {
-  margin-top: 95px;
-}
-
-#pictografia #sessao2 {
-  padding: 95px 0;
-}
-
-#pictografia #sessao2 .wrapper {
-  text-align: left;
-}
-
-#pictografia #sessao2 p:nth-child(2) {
-  color: var(--secundaria);
   margin-bottom: 20px;
-  font-weight: bold;
 }
 
-#pictografia #sessao2 img {
-  width: 466px;
-}
-
-#pictografia #sessao3 .wrapper {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  max-width: 1028px;
-}
-
-#pictografia #sessao3 .baixo {
-  margin-top: 32px;
-}
-
-#pictografia #sessao3 .baixo p {
-  color: var(--secundaria);
-}
-
-#pictografia #sessao3 .baixo {
-  border-top: 2px solid var(--principal);
-}
-
-#pictografia #sessao3 .esq {
-  margin-right: 18px;
-}
-
-#pictografia #sessao3 img.desktopitem {
-  height: 535.5px;
-}
-
-#pictografia #sessao4 {
-  background-color: var(--auxiliar2);
-}
-
-#pictografia #sessao4 .esq {
-  max-width: 262px;
-  text-align: left;
-}
-
-#pictografia #sessao4 .dir img {
-  margin-top: 70px;
-  width: 601px;
-}
-
-#pictografia #sessao4 .ideia {
-  margin-left: 44px;
+#boas-praticas #sessao5 .resumo .light i {
   margin-bottom: 0;
 }
 
-#pictografia #sessao5 .wrapper {
-  max-width: initial;
+#boas-praticas #sessao5 .resumo img {
+  margin-right: 5px;
 }
 
-#pictografia #sessao5 .wrapper .esq {
-  text-align: left;
-  max-width: 263px;
-}
-
-#pictografia #sessao5 .wrapper .dir {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  margin-left: 116px;
-}
-
-#pictografia #sessao5 .wrapper .dir .box {
-  text-align: center;
-}
-
-#pictografia #sessao5 .wrapper .dir .box img {
-  margin: auto;
-  margin-bottom: 35px;
-}
-
-#pictografia #sessao5 .wrapper:last-of-type {
-  margin-top: 65px;
-}
-
-/* Pagina Pictografia Desktop FIM */
-/* Pagina Estilo fotografico Desktop INICIO */
-#estilo-fotografico #sessao1 {
-  padding-bottom: 125px;
-}
-
-#estilo-fotografico .destaque {
-  color: var(--secundaria);
-  font-weight: bold;
-  margin-bottom: 15px;
-}
-
-#estilo-fotografico .tab {
-  padding-top: 30px;
-}
-
-#estilo-fotografico .tab:nth-child(1) p {
-  max-width: 465px;
-}
-
-#estilo-fotografico .tab:nth-child(2) p {
-  max-width: 545px;
-}
-
-#estilo-fotografico .tab:nth-child(3) p {
-  max-width: 505px;
-}
-
-#estilo-fotografico .tab img {
-  margin-top: 80px;
-}
-
-#estilo-fotografico .modulo-abas .nav_tabs .content {
-  height: initial;
-}
-
-#estilo-fotografico .modulo-abas .nav_tabs .content .nav li {
-  padding-right: 130px;
-}
-
-/* Pagina Estilo fotografico Desktop FIM */
-/* Pagina Identidade Desktop INICIO */
-#identidade .risco {
-  max-width: 100%;
-  border-bottom: 2px solid var(--principal);
-  margin-bottom: 65px;
-}
-
-#identidade p.destaque {
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-#identidade #sessao2 {
-  background-color: var(--bgcinza);
-}
-
-#identidade #sessao2 p.txt--padrao40 {
-  color: var(--secundaria);
-  max-width: 210px;
-}
-
-#identidade #sessao2 p.txt--padrao40:before {
-  content: url("../img/Grupo 5783.svg");
-  display: block;
-  margin: auto;
-  width: 42px;
-  height: 25 px;
-  margin-bottom: 35px;
-}
-
-#identidade #sessao2 .wrapper {
-  text-align: left;
-  justify-items: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr auto 1fr;
-      grid-template-columns: 1fr auto 1fr;
-}
-
-#identidade #sessao2 .wrapper .coluna {
-  -ms-grid-rows: auto auto auto;
-      grid-template-rows: auto auto auto;
-  max-width: 285px;
-}
-
-#identidade #sessao2 .wrapper .coluna .destaque {
-  font-weight: bold;
-  font-size: 0.9375rem;
-}
-
-#identidade #sessao2 .wrapper .coluna .baixo {
-  margin-top: 45px;
-}
-
-#identidade #sessao2 .wrapper .coluna .baixo .destaque {
-  font-weight: bold;
-  font-size: 0.9375rem;
-  color: var(--secundaria);
-}
-
-#identidade #sessao2 .wrapper .coluna .baixo .destaque:before {
-  content: url("../img/Grupo 5786.svg");
-  display: block;
-  margin-bottom: 30px;
-}
-
-#identidade #sessao2 .wrapper .esq {
-  position: relative;
-}
-
-#identidade #sessao2 .wrapper .esq .txt--padrao12 {
-  max-width: 234px;
-}
-
-#identidade #sessao2 .wrapper .separador {
-  display: block;
-  width: 1px;
-  height: 415px;
-  background-color: var(--principal);
-}
-
-#identidade #sessao2 .wrapper .dir {
-  position: relative;
-}
-
-#identidade #sessao2 .wrapper .dir .txt--padrao12 {
-  max-width: 254px;
-}
-
-#identidade #sessao3 .txt--padrao40 {
-  color: var(--secundaria);
-  margin-bottom: 60px;
-}
-
-#identidade #sessao3 article:first-child {
-  margin-bottom: 70px;
-}
-
-#identidade .descritivo {
-  margin-bottom: 130px;
-  -ms-grid-columns: 40% 60%;
-      grid-template-columns: 40% 60%;
-}
-
-#identidade .descritivo .esq {
-  min-width: 395px;
-  max-width: 395px;
-}
-
-#identidade .descritivo .esq .txt--padrao12 {
-  max-width: 245px;
-}
-
-#identidade .descritivo .esq .txt--padrao20 {
-  color: var(--secundaria);
-  margin-bottom: 30px;
-}
-
-#identidade .descritivo .dir {
-  width: 607px;
-  max-width: 100%;
-}
-
-#identidade .descritivo .modulo-abas {
-  padding-top: 0;
-}
-
-#identidade .descritivo .modulo-abas .nav_tabs .content {
-  height: auto;
-}
-
-#identidade .descritivo .modulo-abas .nav_tabs .tab {
-  padding-top: 30px;
-}
-
-#identidade .descritivo .modulo-abas .nav_tabs .tab .txt--padrao12 {
-  line-height: 1.3125rem;
-}
-
-#identidade .como-fazemos {
-  -ms-grid-columns: 40% 60%;
-      grid-template-columns: 40% 60%;
-}
-
-#identidade .como-fazemos a {
-  color: var(--principal);
-  text-decoration: underline;
-}
-
-#identidade .como-fazemos .esq {
-  min-width: 395px;
-  max-width: 395px;
-}
-
-#identidade .como-fazemos .esq .txt--padrao20:before {
-  content: url("../img/Caminho 5116.svg");
-  margin-right: 20px;
-}
-
-#identidade .como-fazemos .dir {
-  width: 607px;
-  max-width: 100%;
-}
-
-#identidade .como-fazemos .dir .txt--padrao12 {
-  max-width: 255px;
-}
-
-#identidade .como-fazemos .dir .coluna:first-of-type {
-  margin-right: 46px;
-}
-
-#identidade .como-fazemos .dir .primeiro {
-  font-size: 0.8125rem;
-  margin-bottom: 30px;
-}
-
-#identidade .como-fazemos .dir .destaque {
-  font-size: 0.875rem;
-  line-height: 0.875rem;
-  margin-bottom: 15px;
-}
-
-#identidade #sessao9 {
-  padding: 0;
-}
-
-#identidade #sessao9 article {
-  min-height: 420px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#identidade #sessao9 article:after {
-  display: none;
-}
-
-#identidade #sessao9 article .esq p {
-  color: var(--secundaria);
-  max-width: 258px;
-  margin-right: 110px;
-}
-
-#identidade #sessao9 article .dir .expressoes {
-  -ms-grid-columns: auto auto auto auto;
-      grid-template-columns: auto auto auto auto;
-}
-
-#identidade #sessao9 article .dir .coluna {
-  margin-right: 72px;
-}
-
-#identidade #sessao9 article .dir .coluna:last-of-type {
-  margin-right: 0;
-}
-
-#identidade #sessao9 article .dir .coluna p {
-  font-weight: bold;
-  font-size: 0.875rem;
-}
-
-#identidade #sessao10 .txt--padrao20 {
-  margin-bottom: 35px;
-  color: var(--secundaria);
-}
-
-#identidade #download {
-  padding: 110px 0 50px 0;
-}
-
-#identidade #download .share {
-  margin-bottom: 0;
-}
-
-/* Pagina Identidade Desktop FIM */
+/* Pagina Boas práticas Desktop FIM */
 /* Pagina Downloads Desktop INICIO */
 #downloads footer a {
   display: none;
@@ -4155,70 +4110,6 @@ footer .trademark p {
   }
   .wrapper .slick-dots li button {
     background-color: var(--principal);
-  }
-  .quiz {
-    min-height: 500px;
-    width: calc(100% + 70px);
-    margin-left: -35px;
-    min-height: initial;
-  }
-  .quiz .esq .principal {
-    height: 560px;
-    display: block;
-    position: relative;
-  }
-  .quiz .esq .principal .topo {
-    padding: 40px 35px 0 35px;
-    margin: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .quiz .esq .principal .topo div:first-child {
-    font-size: 1rem;
-  }
-  .quiz .esq .principal .topo .paginacao {
-    font-size: 1rem;
-  }
-  .quiz .esq .principal .texto-principal {
-    margin: 40px 35px 30px 35px;
-    font-size: 1.5625rem;
-    line-height: 1.625rem;
-  }
-  .quiz .esq .principal .setas {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 20px 52px 19px 52px;
-  }
-  .quiz .dir {
-    position: absolute;
-    left: 16px;
-    right: 16px;
-    top: 150px;
-    height: 240px;
-    font-size: 10px;
-  }
-  .quiz .dir div:first-child:before {
-    display: none;
-  }
-  .quiz .dir .cima {
-    background-color: #fff;
-    margin: 0 21px;
-    font-size: 1.125rem;
-    line-height: 1.5rem;
-    height: 165px;
-    padding: 28px 17px;
-    margin-bottom: 5px;
-  }
-  .quiz .dir .baixo {
-    background-color: #fff;
-    margin: 0 21px;
-    font-size: 1.125rem;
-    line-height: 1.5rem;
-    height: 165px;
-    padding: 28px 17px;
   }
   /* Módulos reutilizáveis Mobile INICIO */
   /* Header Mobile INICIO */

@@ -138,30 +138,86 @@
 
                 <ul>
                     <a class="link-abre" href="estilo-fotografico.php">Estilo fotográfico</a>
+
+                    <li>
+                        <a href="#sessao1">Nossa fotografia</a>
+                    </li>
+                    <li>
+                        <a href="#sessao2">Pacientes</a>
+                    </li>
+                    <li>
+                        <a href="#sessao3">Soluções corporativas</a>
+                    </li>
+                    <li>
+                        <a href="#sessao4">Exames</a>
+                    </li>
+                    <li>
+                        <a href="#sessao5">Nosso corpo clínico</a>
+                    </li>
+                    <li>
+                        <a href="#sessao6">Retratos & Depoimentos</a>
+                    </li>
+                    <li>
+                        <a href="#sessao7">Momentos</a>
+                    </li>
+                    <li>
+                        <a href="#sessao8">Usos incorretos</a>
+                    </li>
+                    <li>
+                        <a href="#sessao9">Para se inspirar</a>
+                    </li>
                 </ul>
 
                 <ul>
                     <a class="link-abre" href="aplicacoes.php">Aplicações</a>
+
+                    <li>
+                        <a href="#sessao1">Pacientes</a>
+                    </li>
+                    <li>
+                        <a href="#sessao2">Médicos</a>
+                    </li>
+                    <li>
+                        <a href="#sessao3">Empresas</a>
+                    </li>
                 </ul>
 
                 <ul>
                     <a class="link-abre" href="identidade.php">Identidade Verbal</a>
 
                     <li>
-                        <a href="#sessao1">Ponto de partida</a>
+                        <a href="#sessao1">Nossa voz</a>
                     </li>
                     <li>
-                        <a href="#sessao2">Tom de voz</a>
+                        <a href="#sessao8">Para pacientes</a>
+                    </li>                    
+                    <li>
+                        <a href="#sessao9">Para médicos</a>
+                    </li>                    
+                    <li>
+                        <a href="#sessao10">Para soluções corporativas</a>
                     </li>                    
                 </ul>
 
                 <ul>
-                    <a class="link-abre" href="boaspraticas.php">Boas práticas</a>
-                </ul>
-        
-                                
-                <!-- <a class="identidade" href="identidade.php">Identidade Verbal</a> -->
+                    <a class="link-abre" href="boas-praticas.php">Boas práticas</a>
 
+                    <li>
+                        <a href="#sessao1">Acessibilidade</a>
+                    </li>   
+                    <li>
+                        <a href="#sessao2">Pessoas</a>
+                    </li>   
+                    <li>
+                        <a href="#sessao3">Dicas de estilo</a>
+                    </li>   
+                    <li>
+                        <a href="#sessao4">Ortografia</a>
+                    </li>   
+                    <li>
+                        <a href="#sessao5">Resumindo</a>
+                    </li>   
+                </ul>
 
                 <div class="navfooter">
                     <a href="downloads.php">Central de downloads</a>
