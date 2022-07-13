@@ -5,6 +5,7 @@
 	$url = 'http://localhost/einstein/';
 	
 	// Server	
+	// $url = 'https://previewbsagency.com.br/einstein/';
 
 	$images = $url.'assets/img/';
 	$download = $url.'assets/download/';

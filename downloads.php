@@ -24,30 +24,11 @@
                     <article>
 
                         <div class="box">
-                            <p class="txt--padrao20">Aplicações</p>
-                            <hr>
-
-                            <div class="links">
-                                <a href="assets/download/aplicacoes/AF_Merce_Enxoval.zip">AF_Merce_Enxoval.zip</a>                                
-                            </div>
-                        </div>
-
-                        <div class="box">
                             <p class="txt--padrao20">Cores</p>
                             <hr>
 
                             <div class="links">
-                                <a href="assets/download/cores/AF_Merce_Cores.zip">AF_Merce_Cores.zip</a>                                
-                            </div>
-                        </div>
-
-                        <div class="box">
-                            <p class="txt--padrao20">Essência</p>
-                            <hr>
-
-                            <div class="links">
-                                <a href="assets/download/essencia/AF_Merce_Essencia.zip">Essencia.zip</a>
-                                <a href="assets/download/essencia/AF_Merce_Manifesto.zip">Manifesto.zip</a>
+                                <a href="assets/download/_Cores/AF_HIAE_Cores.zip">AF_HIAE_Cores.zip</a>
                             </div>
                         </div>
 
@@ -56,32 +37,39 @@
                             <hr>
 
                             <div class="links">
-                                <a href="assets/download/grafismos/AF_Merce_Grafismos.zip">AF_Merce_Grafismos.zip</a>
+                                <a href="assets/download/_Grafismos/AF_HIAE_Grafismos_RGB_PNG.zip">AF_HIAE_Grafismos_RGB_PNG.zip</a>
+                                <a href="assets/download/_Grafismos/AF_HIAE_Grafismos_RGB_Vetor.zip">AF_HIAE_Grafismos_RGB_Vetor.zip</a>
                             </div>
                         </div>
 
                         <div class="box">
-                            <p class="txt--padrao20">Logotipo</p>
+                            <p class="txt--padrao20">Iconografia</p>
                             <hr>
 
                             <div class="links">
-                                <a href="assets/download/logo/AF_Merce_Assets_Logo.zip">AF_Merce_Assets_Logo.zip</a>
-                                <a href="assets/download/logo/AF_Merce_Customizacao_Logo.zip">AF_Merce_Customizacao_Logo.zip</a>
-                                <a href="assets/download/logo/AF_Merce_Versoes_Icone.zip">AF_Merce_Versoes_Icone.zip</a>
-                                <a href="assets/download/logo/AF_Merce_Versoes_Logo.zip">AF_Merce_Versoes_Logo.zip</a>
+                                <a href="assets/download/_Iconografia/AF_HIAE_DeckIcones_RGB_PNG.zip">AF_HIAE_DeckIcones_RGB_PNG.zip</a>
+                                <a href="assets/download/_Iconografia/AF_HIAE_DeckIcones_RGB_Vetor.zip">AF_HIAE_DeckIcones_RGB_Vetor.zip</a>
                             </div>
                         </div>
 
                         <div class="box">
-                            <p class="txt--padrao20">Pictografia</p>
+                            <p class="txt--padrao20">Símbolo</p>
                             <hr>
 
                             <div class="links">
-                                <a
-                                    href="assets/download/pictografia/AF_Merce_Pictos.zip">AF_Merce_Pictos.zip</a>
+                                <a href="assets/download/_Símbolo/AF_HIAE_Simbolo.zip">AF_HIAE_Simbolo.zip</a>
                             </div>
-                        </div>                        
+                        </div>
 
+                        <div class="box">
+                            <p class="txt--padrao20">Versões de Marca</p>
+                            <hr>
+
+                            <div class="links">
+                                <a href="assets/download/_Versões de Marca/AF_HIAE_VersoesMarca_Principal.zip">AF_HIAE_VersoesMarca_Principal.zip</a>
+                                <a href="assets/download/_Versões de Marca/AF_HIAE_VersoesMarca_Secundaria.zip">AF_HIAE_VersoesMarca_Secundaria.zip</a>
+                            </div>
+                        </div>
                     </article>
                 </section>
                 

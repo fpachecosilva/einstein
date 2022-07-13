@@ -97,7 +97,6 @@
                                         <div class="slider-bar"></div>
                                     </div>
                                 </ul>
-                                <p class="subtitulo mobileitem">Logotipo preferencial</p>
                                 <div class="content">
                                     <div class="tab preferencial active">
                                         <div class="wrapper">
@@ -127,7 +126,8 @@
                                     <div class="tab preferencial">
                                         <div class="wrapper">
                                             <div class="esq">
-                                                <p>Valores Organiza-cionais</p>
+                                                <p class="desktopitem">Valores Organiza-cionais</p>
+                                                <p class="mobileitem">Valores Organizacionais</p>
                                                 <span></span>
                                             </div>                                 
                                             <div class="dir">

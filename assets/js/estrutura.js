@@ -289,5 +289,6 @@ jQuery(document).ready(function () {
 			image.width = newSize
 		})
 	}
-	resizeImgs()
+	window.onload = resizeImgs()
+	
 });
