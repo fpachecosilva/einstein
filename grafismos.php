@@ -97,7 +97,7 @@
                                 <img class="redux" src="<? echo $images ?>grafismos/3-Proporcao/Post_SemDor_4x5@2x.jpg" alt="">
                             </div>
                             <div class="box">
-                                <img class="redux" src="<? echo $images ?>grafismos/3-Proporcao/KV 1@2x" alt="">
+                                <img class="redux" src="<? echo $images ?>grafismos/3-Proporcao/KV 1@2x.jpg" alt="">
                             </div>
                         </div>
                     </article>

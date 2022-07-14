@@ -41,9 +41,7 @@
                             </div>
                             <div class="content">
                                 <p>
-                                    Ao colocar a inteligência
-                                    de varejo nas mãos das pessoas certas, 
-                                    mudamos realidades, um bairro por vez.
+                                    Dever de cumprir boas ações.
                                 </p>
                             </div>
                             <div class="mini-titulo">

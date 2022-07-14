@@ -47,19 +47,19 @@
                             </div>
                             <div class="box">
                                 <img class="redux" src="<? echo $images ?>iconografia/2-Boas praticas/Grupo 7958@2x.png" alt="">
-                                <p class="txt--padrao12">Cantos e acabamentos<br> arredondados.</p>
+                                <p class="txt--padrao12">Formas abertas ou fechadas, <br>sem preenchimento.</p>
                             </div>
                             <div class="box">
                                 <img class="redux" src="<? echo $images ?>iconografia/2-Boas praticas/Grupo 7957@2x.png" alt="">
-                                <p class="txt--padrao12">Cantos e acabamentos<br> arredondados.</p>
+                                <p class="txt--padrao12">Uso apenas de linhas,<br>sem preenchimento.</p>
                             </div>
                             <div class="box">
                                 <img class="redux" src="<? echo $images ?>iconografia/2-Boas praticas/Grupo 7992@2x.png" alt="">
-                                <p class="txt--padrao12">Cantos e acabamentos<br> arredondados.</p>
+                                <p class="txt--padrao12">Mesma espessura de<br>linha em toda a figura.</p>
                             </div>
                             <div class="box">
                                 <img class="redux" src="<? echo $images ?>iconografia/2-Boas praticas/Grupo 7956@2x.png" alt="">
-                                <p class="txt--padrao12">Cantos e acabamentos<br> arredondados.</p>
+                                <p class="txt--padrao12">Coerência visual.</p>
                             </div>
                         </div>
                     </article>

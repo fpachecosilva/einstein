@@ -283,11 +283,13 @@ jQuery(document).ready(function () {
 	$('body').fadeIn(1000);
 
 	function resizeImgs() {
-		document.querySelectorAll('.redux').forEach((image) => {
-			let size = image.naturalWidth
-			let newSize = size / 2
-			image.width = newSize
-		})
+		setTimeout( () => {
+			document.querySelectorAll('.redux').forEach((image) => {
+				let size = image.naturalWidth
+				let newSize = size / 2
+				image.width = newSize
+			})
+		}, 300)
 	}
 	window.onload = resizeImgs()
 	

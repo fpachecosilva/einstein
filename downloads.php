@@ -57,7 +57,7 @@
                             <hr>
 
                             <div class="links">
-                                <a href="assets/download/_Símbolo/AF_HIAE_Simbolo.zip">AF_HIAE_Simbolo.zip</a>
+                                <a href="assets/download/_Simbolo/AF_HIAE_Simbolo.zip">AF_HIAE_Simbolo.zip</a>
                             </div>
                         </div>
 
@@ -66,8 +66,8 @@
                             <hr>
 
                             <div class="links">
-                                <a href="assets/download/_Versões de Marca/AF_HIAE_VersoesMarca_Principal.zip">AF_HIAE_VersoesMarca_Principal.zip</a>
-                                <a href="assets/download/_Versões de Marca/AF_HIAE_VersoesMarca_Secundaria.zip">AF_HIAE_VersoesMarca_Secundaria.zip</a>
+                                <a href="assets/download/_Versoes de Marca/AF_HIAE_VersoesMarca_Principal.zip">AF_HIAE_VersoesMarca_Principal.zip</a>
+                                <a href="assets/download/_Versoes de Marca/AF_HIAE_VersoesMarca_Secundaria.zip">AF_HIAE_VersoesMarca_Secundaria.zip</a>
                             </div>
                         </div>
                     </article>

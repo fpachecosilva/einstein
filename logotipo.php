@@ -466,7 +466,7 @@
                     <article>
                         <div class="como-usar">
                             <p class="txt--padrao20">Como usar</p>
-                            <img class="redux" src="<? echo $images ?>logotipo/7-Simbolo/Grupo de máscara 83@2x.png" alt="">
+                            <img class="redux" src="<? echo $images ?>logotipo/7-Simbolo/Grupo de mascara 83@2x.png" alt="">
                             <p class="txt--padrao12">
                                 <strong>Uso isolado</strong><br><br>
                                 A estrela pode ser aplicada sozinha desde que, em algum lugar da peça,
